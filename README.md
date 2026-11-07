@@ -1,11 +1,10 @@
-# rothko stock kernel prebuilts
+# rothko stock kernel extraction recipe
 
-Imported verbatim from OS3.0.307.0.WNNCNXM. This repository contains prebuilts, not a rebuilt kernel.
-
-- Image.lz4 is the original compressed boot kernel.
-- dtb/rothko.dtb retains the original Android DT table wrapper and embedded FDT.
-- dtbo.img is the matching stock image, including its original AVB data.
-- Module sources and normal/recovery load lists retain their partition boundaries.
-- PROVENANCE.json records every source file and SHA-256; kernel.config is extracted IKCONFIG.
-
-There are no LK, preloader, bootloader or other firmware images here. These files alone are not an installable ROM. Image signing and compatibility checks remain separate.
+This source-only repository contains a 581-file hash-pinned extraction recipe,
+not kernel/module binaries and not corresponding kernel source. The previous
+import history was filtered in a separate copy; original authorship is retained.
+Use the companion rothko-lineage-integration BUILD.md and extract-kernel.py
+with your own matching OS3.0.307.0.WNNCNXM artifacts. Locally reconstructed
+Image.lz4, DTB/DTBO, kernel config, modules and lists are Git-ignored.
+No LK/preloader is selected. Source-built kernel/module work and official
+readiness remain outstanding; this recipe does not satisfy them by itself.

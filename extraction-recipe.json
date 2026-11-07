@@ -1,0 +1,4655 @@
+{
+  "schema_version": 1,
+  "firmware": "OS3.0.307.0.WNNCNXM",
+  "source_built": false,
+  "files": [
+    {
+      "path": "Image.lz4",
+      "input": "artifacts",
+      "source": "boot/kernel",
+      "sha256": "81222f824cc59fc06dba2914ba0a1ea38b11beb9ab5891c8f74c551487f48b76",
+      "bytes": 16547799,
+      "mode": "0644"
+    },
+    {
+      "path": "dtb/rothko.dtb",
+      "input": "artifacts",
+      "source": "vendor_boot/dtb",
+      "sha256": "40ce5622e977931f1f295391b8cea0d9b65be495a1093da2264e33d28be6a314",
+      "bytes": 444690,
+      "mode": "0644"
+    },
+    {
+      "path": "dtbo.img",
+      "input": "images",
+      "source": "dtbo.img",
+      "sha256": "22075a2ae5c238933939c75412c2be171b2174d5176fabe96083685d33eafe41",
+      "bytes": 8388608,
+      "mode": "0644"
+    },
+    {
+      "path": "kernel.config",
+      "input": "artifacts",
+      "source": "kernel-config.txt",
+      "sha256": "063823a9cb8763c1162f15a175523c23185ce283f7c6df3d93bf2a890a8436f3",
+      "bytes": 205452,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/8250_mtk.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/8250_mtk.ko",
+      "sha256": "09a4a1a1987a0aa6061e0630cfc0abde9dcd57e06dc44fd3d96824a1811121de",
+      "bytes": 95424,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/adapter_class.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/adapter_class.ko",
+      "sha256": "26b347692e4ef9c43314387fda374705e0dd9d3bd87614061bc031984a5e6dbb",
+      "bytes": 47200,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/adsp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/adsp.ko",
+      "sha256": "44ca7ae3877cdb13ea2e88ae7d808cebe3d3aba0813c7db86c670f51ace8ab66",
+      "bytes": 190784,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/aee_aed.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/aee_aed.ko",
+      "sha256": "b4be92a4c1806c23e0b09513661e74721f7af1849ff4987d422e848fdd5eb641",
+      "bytes": 192456,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/aee_hangdet.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/aee_hangdet.ko",
+      "sha256": "994e90885c4a502d3939648c73fe9d6b55ef4bd7da7a0e830a7696b2eddf522c",
+      "bytes": 84880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/aee_rs.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/aee_rs.ko",
+      "sha256": "32ae83c866b7bd0b4921b9376f72d2b9b0a514aa805b6f44a39ed58ccbaa57cd",
+      "bytes": 20056,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/arm_dsu_pmu.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/arm_dsu_pmu.ko",
+      "sha256": "2a8f136a4e19fcefa77380b2770c85afa1730d650bef1c967c60c5d43845c801",
+      "bytes": 34808,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/arm_smmu_v3.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/arm_smmu_v3.ko",
+      "sha256": "2126c70a3a5d57129771dd804d4063feddf65e749f08e3e50504c96e9b380270",
+      "bytes": 174352,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/bootprof.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/bootprof.ko",
+      "sha256": "9a8561c397d0b91e95c63a04bc018b574ce508e5596fc23f5ae761c04a9f2681",
+      "bytes": 37240,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/bq28z610.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/bq28z610.ko",
+      "sha256": "2970ae2edc277d393b9fa93073429dc71e9a77ac1eefd528a890e02fc156ea74",
+      "bytes": 191256,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/bus-parity.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/bus-parity.ko",
+      "sha256": "fc0f98a5a229ffca932c97455463544ffac2bd724cb6267cb034ec4e38aebb35",
+      "bytes": 36720,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/cache-parity.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/cache-parity.ko",
+      "sha256": "3e2223896096076191b32ddc3ef1a5372118add0b49155e60d0a480f9afdea26",
+      "bytes": 40576,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/charger_class.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/charger_class.ko",
+      "sha256": "80067f8a3fe2e034ce46d78cae473a02b738aba59ae52e5958724466fc505feb",
+      "bytes": 92824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-bringup.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-bringup.ko",
+      "sha256": "afcc9f37acaf5ece1229d020787c4dc599f85462b70dc9a3f3be1661ea4ddc98",
+      "bytes": 15296,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-chk-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-chk-mt6989.ko",
+      "sha256": "3797fe6f079ace93c08e12db1ad5779c05ad0faae0c6ba3cb68e3808b411e91d",
+      "bytes": 147392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-common.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-common.ko",
+      "sha256": "4e00def402e81611d75b80f9deddf02187459e78211a012c7932fc5f78851d2f",
+      "bytes": 256760,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-fmeter-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-fmeter-mt6989.ko",
+      "sha256": "48371632810c59de34c6a76b02720467e56cdac0b7bc325cfa3604e113ad5290",
+      "bytes": 36440,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-adsp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-adsp.ko",
+      "sha256": "dbf799e8fbb30bc0e755b737a9c816504874e396aa4ae1f55afb016fc32279b3",
+      "bytes": 27360,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-bus.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-bus.ko",
+      "sha256": "01b022d1921af854783921a323d3a5ab243f31daa1672a4181a9269ffb3143c2",
+      "bytes": 13768,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-cam.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-cam.ko",
+      "sha256": "8cba9542dbf689722e60ad6c7904cd44e0d149a7fb004bafc591f759e308f67e",
+      "bytes": 35528,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-img.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-img.ko",
+      "sha256": "cdf228d1f14f396b62aab3a63ada2c13a39058aebccd26084c9d4b4e7c2a6613",
+      "bytes": 34408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-mdpsys.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-mdpsys.ko",
+      "sha256": "a78971e0620daab08553e974fbb5df89d2c66dda24f4304918c7075fcb84f8c3",
+      "bytes": 31984,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-mmsys.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-mmsys.ko",
+      "sha256": "1b0c8edd98862463abfc2325b3b20806050c18c6a254a4a8de200bfba4a600d5",
+      "bytes": 44096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-peri.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-peri.ko",
+      "sha256": "cf30d9d066abe837f0ba956a2c92a18d412ea133f9202b8d03af690429a43f1e",
+      "bytes": 31800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-vcodec.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-vcodec.ko",
+      "sha256": "bf02729ab173b72f5018835fd85ab083d1434629bc06150ccb9b6d6f9b6b9b1b",
+      "bytes": 21840,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989-vlp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989-vlp.ko",
+      "sha256": "fad792e099c4749516485de740f2f67971c0faefa8c236a7d946fb39e6bba8c9",
+      "bytes": 16584,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clk-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clk-mt6989.ko",
+      "sha256": "83660d203a79af467b94aee3d51c2699e765f1b5e4f5a90158cd05ec08522569",
+      "bytes": 107216,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/clkbuf.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/clkbuf.ko",
+      "sha256": "edf103babf4a6aa638691bcb3de6afaf9e7dd40e94d82f321ba5077f3553fa37",
+      "bytes": 120456,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/cmdq-platform-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/cmdq-platform-mt6989.ko",
+      "sha256": "bc08ea8a94a46fd4f5451d0c06ffd43b258ec6802f4442e5e0e2edfb7226b0a4",
+      "bytes": 25160,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/cmdq_helper_inf.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/cmdq_helper_inf.ko",
+      "sha256": "ffbe117c7c1199c705866445ebcfd4fe46911d41e067774dff818332cb844a8c",
+      "bytes": 17584,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/cpq.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/cpq.ko",
+      "sha256": "da615d9025378156149c711a52046ea80a64f8e5cf1e2e48447d2ea3256d17aa",
+      "bytes": 44016,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/cqhci.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/cqhci.ko",
+      "sha256": "fda680bf79c91b22c56c8b64c532cb3c2330426dcdefd2622791dab04f83ecb5",
+      "bytes": 44576,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/crash_module.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/crash_module.ko",
+      "sha256": "403fb35f23fc656da881d03be28e4ddec9d21c6c52e40d1b5a06adddf3295c9b",
+      "bytes": 13592,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/dbg_error_flag.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/dbg_error_flag.ko",
+      "sha256": "b2c2b61e24112563946b56bd744f7d36eba928f92996fa9504d76a1da99518b4",
+      "bytes": 29272,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/dbgtop-drm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/dbgtop-drm.ko",
+      "sha256": "0b8771322b275e6cc234293fff67c6cc7ed68535db19fc509146449b80eae570",
+      "bytes": 19648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/debug_ext.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/debug_ext.ko",
+      "sha256": "609ddee7559b4147655e87af9744663d4cf71f7fe5b0a19e32ea20c677916862",
+      "bytes": 23896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/device-apc-common.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/device-apc-common.ko",
+      "sha256": "921a2c6229d8e07fc97d2881884de02c72eff0512337e461a983edd89f233e28",
+      "bytes": 90984,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/device-apc-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/device-apc-mt6989.ko",
+      "sha256": "d933bce612dfc1379412f9b1225bb965db3796d5d0ae42231cf270ebe9e81800",
+      "bytes": 145328,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/drm_display_helper.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/drm_display_helper.ko",
+      "sha256": "1be62f521a71d7b38eb4b173e4916e01cc56b24141b0831ab48f03dc2a1dfa07",
+      "bytes": 257752,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/drm_dma_helper.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/drm_dma_helper.ko",
+      "sha256": "ce4e4d826a694f04e192ad1fd1fde08ca846a51c65a6825f25ac33eb6ea410cc",
+      "bytes": 30720,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/emi-mpu.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/emi-mpu.ko",
+      "sha256": "90fc4e4d231681f8589f6f6e045731f1010d1aba1448e43491fb6af978bdcbe1",
+      "bytes": 27680,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/emi-slb.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/emi-slb.ko",
+      "sha256": "c76bfbfaa70f21e7857d5adbe6920fec53ec891d4880c2814cd15b205a69d242",
+      "bytes": 20832,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/emi.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/emi.ko",
+      "sha256": "524b2b76d66f66415c14a65619a2d5388692ed87f7640e132ab1483718673025",
+      "bytes": 53208,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/et5907mv.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/et5907mv.ko",
+      "sha256": "b77345de0f98d5a8e43793c23b91b00a68269bf74888c4046e95e29bc335819b",
+      "bytes": 36800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/extcon-mtk-usb.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/extcon-mtk-usb.ko",
+      "sha256": "b50bfe10149cdc5b5827352484d750eaa8aa9c69d9a1fd05ea8bafeb5e06b84c",
+      "bytes": 36264,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/extdev_io_class.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/extdev_io_class.ko",
+      "sha256": "bb747b917fb0b1c68bef0f0d33c02f17928e84c9f83518b4ac9ffede59403804",
+      "bytes": 22432,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ffa_v10.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ffa_v10.ko",
+      "sha256": "6c6f41e4e5e2680ed5c1aeddec8ed8fea3e819a9fec9529f543599b36658d66f",
+      "bytes": 38688,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/focaltech_touch_rothko.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/focaltech_touch_rothko.ko",
+      "sha256": "2015e867b32f72806b8ab6360dee5e1b483b7153b472488c2b66126d6cac9923",
+      "bytes": 740368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/goodix_core_rothko.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/goodix_core_rothko.ko",
+      "sha256": "9953f3ea1b94bc71b57b74211a94701aa2354589f52f1e381152db38340fbcfb",
+      "bytes": 693880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/hwid.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/hwid.ko",
+      "sha256": "96df4c504539b73c40ddd973d887d9ba95659b190ca878f4f0d8de54c7aa541e",
+      "bytes": 21592,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/i2c-mt65xx.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/i2c-mt65xx.ko",
+      "sha256": "e1fdf1977505de7b7ba3f783e13f3cdeaf03fb9461631f3f5df0b857fe536842",
+      "bytes": 63136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/industrialio-triggered-buffer.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/industrialio-triggered-buffer.ko",
+      "sha256": "b262d3a19ff02490347f9045fddace8108d755675bfce41005810a73a7420d85",
+      "bytes": 13664,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/iommu_debug.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/iommu_debug.ko",
+      "sha256": "5cdf8bb367dc4cb355afe35b02d91f47048d327b0d4ac0f1ae56ab8b42492553",
+      "bytes": 339776,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/irq-dbg.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/irq-dbg.ko",
+      "sha256": "796773935e97ab86745e6c5503341dd050422348b17c475b55104b9f07279c26",
+      "bytes": 17536,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ise-trusty-ipc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ise-trusty-ipc.ko",
+      "sha256": "3fef1b13f4036802b53e427ccc194a6cbf5be5eb156ef09c16d0f9b195d0c0a9",
+      "bytes": 66944,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ise-trusty-log.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ise-trusty-log.ko",
+      "sha256": "4675f03b122e7850bfecf723d17f17cf97bc542c8d165e6ef5083da0eb515ca9",
+      "bytes": 18280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ise-trusty-virtio.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ise-trusty-virtio.ko",
+      "sha256": "1437ad89a7e653481c2a3eb7a69205a5d49ad23b5882ec8d6887413c04a21f74",
+      "bytes": 40112,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ise-trusty.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ise-trusty.ko",
+      "sha256": "db81fe708d3bf98d4141bb36ca12219fa24c21ebdacc3326a1a91076edcecd6d",
+      "bytes": 50792,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ise_lpm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ise_lpm.ko",
+      "sha256": "f7098fb502a59a416309bdb61a3465fd5488696b174ca987a802f58d76902896",
+      "bytes": 34528,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/kfifo_buf.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/kfifo_buf.ko",
+      "sha256": "3f75b88f4bc8f6afcd8b6445f0bf2d4e57e30830a1daa95f998165c621403b2b",
+      "bytes": 19688,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/last_bus.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/last_bus.ko",
+      "sha256": "f0c69961f4b54a884c64f53685919865b4b83fccaee0df83b568f2683af0ad8e",
+      "bytes": 32320,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/leds-mtk-disp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/leds-mtk-disp.ko",
+      "sha256": "08dc305f7090c6f476451da51ff2b0d2d2d577c67e5a1f8ed7de8e7efe34917f",
+      "bytes": 19216,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/leds-mtk-pwm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/leds-mtk-pwm.ko",
+      "sha256": "cb1caa6c2cc059e7e02dc449f40007e2bc8693dc1bf0cc0e7ddfd063b188c808",
+      "bytes": 16896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/leds-mtk.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/leds-mtk.ko",
+      "sha256": "e237ff9efc5d085642f50b64d55ecad654972760ff246a1e379e4b2ea9757a3e",
+      "bytes": 39264,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/load_track.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/load_track.ko",
+      "sha256": "40907e02d04c63c0ae5e1ea4c6d62644c8731c9b55455aeb36df3702c46e2c1f",
+      "bytes": 21664,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/log_store.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/log_store.ko",
+      "sha256": "ce4d0024c29e7cfb752d02e7a57bbf0e25fc5bb4103967973ee239bc1e093890",
+      "bytes": 38600,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mdp_drv_mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mdp_drv_mt6989.ko",
+      "sha256": "2ccaf82d43cbc33f28c76d9dc980cf11f71e0ed3b8e6ca7e30a0a96326e66727",
+      "bytes": 773000,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mediatek-cpufreq-hw.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mediatek-cpufreq-hw.ko",
+      "sha256": "16d6ff1a2e180d45027dbda918fdf50da3867d6aecdafd28878c65a70a99ada2",
+      "bytes": 37832,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mediatek-drm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mediatek-drm.ko",
+      "sha256": "f8ef6672b0b1fb7890ba7c5f03cdbe33f52c0535a11b35d38cc0102ce68cbb98",
+      "bytes": 6082472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mi_memory.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mi_memory.ko",
+      "sha256": "6944bb6e4887e817379c2ef59c12290a22944a3e9b6abf21b150d340f45bf1d0",
+      "bytes": 62968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mi_t1_gpio.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mi_t1_gpio.ko",
+      "sha256": "2c4af693f28b723de651e19c51c6ab887ecc429996542c6a04e5e02e63967e2c",
+      "bytes": 51592,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/miev.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/miev.ko",
+      "sha256": "d528881166d1eb698b1ed146f0785229205ea757efb0a74e574a9ac6332a0ae7",
+      "bytes": 37848,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mitee.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mitee.ko",
+      "sha256": "511fba5cbd687b7d3fb221f9a2517a37f360a10364306dd5f66f1e805fb42e3f",
+      "bytes": 209288,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mkp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mkp.ko",
+      "sha256": "f8c81ad42c40da4e6f8a4ad6a58e7a524b976182d55c9a01e544760a0e1e2e35",
+      "bytes": 96096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mm-fake-engine.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mm-fake-engine.ko",
+      "sha256": "2961ac9ee47f6316960c92f1f22839e6a1f3b02a7230b04b4301411575c71190",
+      "bytes": 13608,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mmprofile.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mmprofile.ko",
+      "sha256": "c520d216ed726aa7ebc38e82eb26f35dc7ccc321240c834885a82efa37243faf",
+      "bytes": 218768,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mmqos-common.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mmqos-common.ko",
+      "sha256": "479d61aa6b83665e06e9ec464ed385079ff7b334d7f376f0ea5fdeed1bcfb1a6",
+      "bytes": 225904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mmqos-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mmqos-mt6989.ko",
+      "sha256": "952cf9a2062ba0957afefde54a6e30909e683e20e874ec1fd86b3e2717feb788",
+      "bytes": 52888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/modules.alias",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/modules.alias",
+      "sha256": "0bff63923eae95de863c6fd94911df974fe7861713a26eff7761ac61634ee561",
+      "bytes": 65916,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/modules.dep",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/modules.dep",
+      "sha256": "ff59225de0ff453f233098c4d7ed151f54b4cae862dc74d65652071ea33e203d",
+      "bytes": 54103,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/modules.load",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/modules.load",
+      "sha256": "f4100053e86b05f68ad483d37a585750175781c6b98a757c71b2eae4486bc034",
+      "bytes": 3463,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/modules.load.recovery",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/modules.load.recovery",
+      "sha256": "4ad20d35c30610cbc025c5385b374574561a558f74acc9f6d2bb723951a2429b",
+      "bytes": 3762,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/modules.softdep",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/modules.softdep",
+      "sha256": "3c5b1030f1aff5b77a7b1daad1197a6e115e7cd40dada71a2625c007e201e6de",
+      "bytes": 525,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/monitor_hang.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/monitor_hang.ko",
+      "sha256": "3722a4fc862a658bbb05c9e1149705a25029769e0d4c6d605ec0a40f22ba0fa8",
+      "bytes": 80248,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mpbe.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mpbe.ko",
+      "sha256": "3e3fed36c75989897160b14e50f340f378beb19fd839b055d92a274a88b95d6e",
+      "bytes": 124936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mrdump.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mrdump.ko",
+      "sha256": "db66b956126e95ebf07390af33efbb9922e6e45464ff4d816a69a6b8850dbcab",
+      "bytes": 137632,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6316-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6316-regulator.ko",
+      "sha256": "525029c531147fcb88470d8f417cd9247d291417d5554fa62c79f68c71d2d641",
+      "bytes": 24128,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6363-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6363-regulator.ko",
+      "sha256": "d4e80b7b770b5acbbff2fad0793bc390b275f049966731ee7a938b22b43f91bb",
+      "bytes": 56520,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6373-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6373-regulator.ko",
+      "sha256": "fe36f1b57e2857867704c88f0317c32f30baa8bb5c630508eae0075535dcede6",
+      "bytes": 48280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6375-adc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6375-adc.ko",
+      "sha256": "ecdc7eecdb596340eaa560595438078f595294807d1566c64899e75ed357d313",
+      "bytes": 21736,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6375-auxadc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6375-auxadc.ko",
+      "sha256": "6bc271bac416544a85eb6b25f106039dc4a2724cfc9797c39cad3491f9283e0b",
+      "bytes": 41288,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6375-battery.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6375-battery.ko",
+      "sha256": "f0c3b6276c704eb9fdfc81f477adc0226a178a830924013e1f1d2ae2024682e3",
+      "bytes": 643040,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6375-charger.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6375-charger.ko",
+      "sha256": "06a01a857c60f7ea0fa823b8ef11512015f080e94ec96f22c9f86b4b764bf0f6",
+      "bytes": 134184,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6375.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6375.ko",
+      "sha256": "680822c6191db0d5b0542c76b5d5725322c4fd0fd578421fac52e1baf84ace4c",
+      "bytes": 26104,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6681-auxadc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6681-auxadc.ko",
+      "sha256": "d652ee3a9830fe55006177d62a490006aa3e084e65300b21ed53cfdcc08ba09f",
+      "bytes": 22712,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6681-core.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6681-core.ko",
+      "sha256": "715038dc5a31025fa022470300fc5d45958b8e964d99100dd036f02a0a55cbe1",
+      "bytes": 28008,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6681-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6681-regulator.ko",
+      "sha256": "4c86e89628c47ae7d2ad508a617b99e74d9d8d9fb0006a8839cb960926abff51",
+      "bytes": 21624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6685-335clk.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6685-335clk.ko",
+      "sha256": "e4e91440692ae77e9acbd41676004825245d46629c72310ed51982747195368e",
+      "bytes": 16616,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6685-audclk.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6685-audclk.ko",
+      "sha256": "3b5f6f86da80b5ba31512de37ae1b7569b2a50ab6da0fdc69880505b8d66d140",
+      "bytes": 15272,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6685-core.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6685-core.ko",
+      "sha256": "9f5b989862d0b5c8c48b72627acc6bb4dc9a3b1845dadd381f9710a7e9addd50",
+      "bytes": 14936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mt6989_dcm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mt6989_dcm.ko",
+      "sha256": "2a70ffaf14de77ac091f9089db7bf7682ab1934a7d59ab336ab42656e97608d4",
+      "bytes": 61488,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-afe-external.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-afe-external.ko",
+      "sha256": "5c13b47a267de68151f2f5788c10e951eceec72183157d7e39d9812830db5649",
+      "bytes": 20344,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-cmdq-drv-ext.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-cmdq-drv-ext.ko",
+      "sha256": "a9f664554f99ab1cd55eab96ebf604f069086fb64c5ef0ed75832f23b343e1c5",
+      "bytes": 423896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-dvfsrc-devfreq.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-dvfsrc-devfreq.ko",
+      "sha256": "1a11e23a2308c46fde051b0a55fe2b93a52a4d305b994c16853a56bf5c474f93",
+      "bytes": 17016,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-dvfsrc-helper.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-dvfsrc-helper.ko",
+      "sha256": "d06579d14fb31867836b46a015584791b1d5cd78f9653906b1195dfa8255692c",
+      "bytes": 120816,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-dvfsrc-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-dvfsrc-regulator.ko",
+      "sha256": "7a406745d029c277d9d80611475c284598325c753a3525ddd19a7c3b42368fba",
+      "bytes": 32936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-dvfsrc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-dvfsrc.ko",
+      "sha256": "daf9c3f9c92ffff15db468f78443db42eba52740438aef931a78bb77e2e50484",
+      "bytes": 74392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-emi.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-emi.ko",
+      "sha256": "48bc144a09a6ee20f6c620dcec524a9214d0d2d1598c75e4395101ec49ef6e8e",
+      "bytes": 32448,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-hw-semaphore.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-hw-semaphore.ko",
+      "sha256": "0ddee8ed55300ae5d3103675c1c770504d8be119f0eed52990aae215fba1201c",
+      "bytes": 25800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-icc-core.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-icc-core.ko",
+      "sha256": "0a373292b63ec1caf11417d7df7685f19e65409bc30b463129a2d5c25c0a465c",
+      "bytes": 54800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-ise-mailbox.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-ise-mailbox.ko",
+      "sha256": "3a04c94b91f15baefc045e3520cfa4beda6eac9af96d64822834a74284933f48",
+      "bytes": 24792,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-kpd.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-kpd.ko",
+      "sha256": "78e33cd3be9e6544f7e0da6e1475250c2ff8bd9e81fe7eed4b67bb1dbda8dbb3",
+      "bytes": 27872,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mbox-mailbox.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mbox-mailbox.ko",
+      "sha256": "2035b2a03b33510fcf9b0652f72bd499198f68a2d7ac233056d51e47fa6c5a45",
+      "bytes": 19728,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mbox.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mbox.ko",
+      "sha256": "20b7508de283de9eeb23d9de3b6798e4dd4fb76fa81792473d5e6c0e9cb2e260",
+      "bytes": 58824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmc-dbg.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmc-dbg.ko",
+      "sha256": "e93622ee1bd3a990fdc6963c3171526fac222331a68f361c8e5299354e9f4515",
+      "bytes": 54728,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmc.ko",
+      "sha256": "493242c9503e6e64459d4d260e8f59e76f271af7b7bd81fa0b505327a770a805",
+      "bytes": 90352,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmdebug-vcp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmdebug-vcp.ko",
+      "sha256": "c5b4a722c0233d48ea9255c0ec7617c7f33efdc049d0b916c8785320b8b4ba98",
+      "bytes": 19544,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmdvfs-debug.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmdvfs-debug.ko",
+      "sha256": "00c40e4ab55b54fe3478cd645516befc4b20e33b02612d8694644c7d689f2ecd",
+      "bytes": 63816,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmdvfs-ftrace.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmdvfs-ftrace.ko",
+      "sha256": "dea547ecfa374a0da08b989ded60ca3cdb593665425887a6ddaad344be7a01d6",
+      "bytes": 38112,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmdvfs-v3.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmdvfs-v3.ko",
+      "sha256": "4ba3db9f597508d052a7eaa6c5cd99d1448ea2c81641d1018486de15fd40055e",
+      "bytes": 133304,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mmdvfs.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mmdvfs.ko",
+      "sha256": "c6ffae8c8981a5f8b41cc727fc1540c859f8ba6848526027ad24ea7292229ddc",
+      "bytes": 48696,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mminfra-debug.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mminfra-debug.ko",
+      "sha256": "42d194aaa040c7323dfc0735680ded0ba88b78219139245d70b454cc86995c9d",
+      "bytes": 59304,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mminfra-imax.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mminfra-imax.ko",
+      "sha256": "ee4d24636eadf71496c0c318e1df13178b4fe7f23182774c931aaf1d52ffbf44",
+      "bytes": 35344,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mml-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mml-mt6989.ko",
+      "sha256": "eb995bc9e398767eee5d1429d1be4fd0bcb7f9f013b15fdab9308ac95357ac91",
+      "bytes": 40392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-mml.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-mml.ko",
+      "sha256": "3a515c050cfd529cf55068ff5e0e54fadf3279105f19cddd5a0e1d783538d331",
+      "bytes": 1889776,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-pmic-keys.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-pmic-keys.ko",
+      "sha256": "b8120b7b26ad7ce833598a127d0af3a1055e39b324ee33640888f63cbc84050a",
+      "bytes": 23584,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-pmic-wrap.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-pmic-wrap.ko",
+      "sha256": "fd6e0a56715d8f18a4464a964b93d5d799fa3185f847abceaa942ddf1421b840",
+      "bytes": 52136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-scpsys-bringup.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-scpsys-bringup.ko",
+      "sha256": "e7945ad34c3149146d404207882dd525941cdfb9b0628cc26990d95291749e97",
+      "bytes": 14536,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-scpsys-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-scpsys-mt6989.ko",
+      "sha256": "920b7e635368f02de2a1391f48db492f127a9a454fa29355ae05351d42bc6010",
+      "bytes": 45648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-scpsys.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-scpsys.ko",
+      "sha256": "ab76ae348e570a31ffe1b617789215507950177c88f16f811edd0790c7ee6143",
+      "bytes": 128368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-smi-dbg.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-smi-dbg.ko",
+      "sha256": "5fe6f1e684a9aa9118cc9b171a30b790886362857212f244ba66b1133798fc71",
+      "bytes": 81768,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-smi.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-smi.ko",
+      "sha256": "87ff01b78989fcc23a5c07a321770bc51447dd0c2a26ee74d86ab51e24af7d14",
+      "bytes": 197112,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-socinfo.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-socinfo.ko",
+      "sha256": "4b8e357d7d1c70caaee27cdfaf2e5bf3eb8c62c618f2b3835e96929c3bf84641",
+      "bytes": 11928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-spmi-pmic-adc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-spmi-pmic-adc.ko",
+      "sha256": "4dd7600dcc7ed66a96ddb65be5fcaf7f5053ae5bfd9046d61b9c964a27693686",
+      "bytes": 30568,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-spmi-pmic.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-spmi-pmic.ko",
+      "sha256": "d138c4ef63aeaa9cffe9d0b50cd3cbdb727fe9af945b5a3b0384caab19207fb7",
+      "bytes": 51136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-swpm-perf-arm-pmu.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-swpm-perf-arm-pmu.ko",
+      "sha256": "ddbaf8fbf6d769e8a3b1294a6381b37fec6fb6ada8555bf65de7978bd0a4fd22",
+      "bytes": 40384,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-uart-apdma.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-uart-apdma.ko",
+      "sha256": "49d321620c46565b2a91f67602f3575ad3d720ebf6a873a7a356284d04cd45d1",
+      "bytes": 71088,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk-vmm-spm-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk-vmm-spm-mt6989.ko",
+      "sha256": "cac33596ee18c8492eab2bfde73641309aa786a0435a9c563fa119e495690568",
+      "bytes": 22816,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_battery_oc_throttling.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_battery_oc_throttling.ko",
+      "sha256": "7de6795319c8e7ceca5a638b5ceb97bab590b7f59effb75ef80db1e2db7e87ec",
+      "bytes": 37056,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_charger_algorithm_class.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_charger_algorithm_class.ko",
+      "sha256": "cf8b4ba37416aa19655a78af6a586ca56d9efa69e8af27d230063ad4926081a1",
+      "bytes": 27280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_charger_framework.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_charger_framework.ko",
+      "sha256": "9deee070d41e523b94a244a3f6a5bf147418400df2fa7c750c253a1e87ed92e7",
+      "bytes": 569640,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_chg_type_det.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_chg_type_det.ko",
+      "sha256": "c8b3850c618b5dacb08a2c2443ae7a93a3bb0fff23c8e4744dae473b4c7f47d6",
+      "bytes": 29136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_dcm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_dcm.ko",
+      "sha256": "2d38d6d942f0c3b927b781ddd5f6c54d780ee20ec0b2ccc4824969ed735c6045",
+      "bytes": 24328,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_disp_notify.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_disp_notify.ko",
+      "sha256": "3e04718a9df04542e6b3f822698343b2b2d1e7262f895ac7ec488d1a814bdad0",
+      "bytes": 14568,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_dpc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_dpc.ko",
+      "sha256": "a9d9a59e71095f81fc2b9e508756d736bf935fee2effbd8db2ebaa28ab6374f0",
+      "bytes": 177808,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_dramc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_dramc.ko",
+      "sha256": "184b9195be052a0740ce16ec202d04d43d85924e67bb1e169f1bd10e9dcac41c",
+      "bytes": 34336,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_dynamic_loading_throttling.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_dynamic_loading_throttling.ko",
+      "sha256": "466f934010a191b29d23e2bf00a28e86021da9e5f26cc738d93c5614123973fa",
+      "bytes": 34904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_et.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_et.ko",
+      "sha256": "0bd7f7cd227ae5c0c613c6ee699d727441557a2cfc81d53bd24dd983654bf86a",
+      "bytes": 25368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_low_battery_throttling.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_low_battery_throttling.ko",
+      "sha256": "9559a7bdae6f070799c375c991b16bc232725c1288d062d5f3290b163c58dd56",
+      "bytes": 58576,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_mdpm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_mdpm.ko",
+      "sha256": "437797f33a449d295e81f64e7f38d6258822524f072c450df14f229fd8b0a4f0",
+      "bytes": 128480,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_panel_ext.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_panel_ext.ko",
+      "sha256": "c5d5ec2dd7d34400977cfc656500ff7530380149749db0b4cb00d018ece14208",
+      "bytes": 17880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pbm.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pbm.ko",
+      "sha256": "ccedd2bb14b33cef19217b655e449dca1113feaae7999d631e2c5997103998ee",
+      "bytes": 55880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pd_adapter.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pd_adapter.ko",
+      "sha256": "4c3ba1d2ecd4dd3cda78dba9887a3ea0f80f9d72fedc3976d9534396d763867f",
+      "bytes": 50160,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pd_charging.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pd_charging.ko",
+      "sha256": "e506c08696d7d800fea3d251cfe1f771ea023aebfa36d061da926c70dab4e35c",
+      "bytes": 69608,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pep.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pep.ko",
+      "sha256": "59a111764def5119f12acc8f8360fb3f6002462e53360214c116799b13fd2e8a",
+      "bytes": 56088,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pep20.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pep20.ko",
+      "sha256": "5120a282faf2008c89758498d715f0b6e5940282df121123fa8323e2243fd453",
+      "bytes": 75560,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pep40.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pep40.ko",
+      "sha256": "dabbce88a25ceb0fa5e5bed034cec7e0f3f89aa2438f128c9bd206f3e4ce7cd8",
+      "bytes": 92200,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_pep45.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_pep45.ko",
+      "sha256": "5aeb4bdbe9771499d47b5564b522818e6b5dff5274a633ee72f883b4c9669606",
+      "bytes": 98696,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_printk_ctrl.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_printk_ctrl.ko",
+      "sha256": "09f59c96c5ef2ace1a5f3df6ef46d565414d45940d9ac036dfbd197b1d4db985",
+      "bytes": 23016,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_rpmsg_mbox.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_rpmsg_mbox.ko",
+      "sha256": "5a13f7157b1d09162e8ad6d0cd8a88cb3fb623fbf97a7082f25016131f6b2e4e",
+      "bytes": 16272,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_slbc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_slbc.ko",
+      "sha256": "45b448a5769c86bd067f093ef7d8ec852c1801b143ae62302d0ca602fd9448b8",
+      "bytes": 32016,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_sync.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_sync.ko",
+      "sha256": "cb0de406562c2d41623ef14644ebe5d4b36668fb469fcc1df2691f0819e15b65",
+      "bytes": 21472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_tinysys_ipi.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_tinysys_ipi.ko",
+      "sha256": "4356a46013d45a4c86e9c7562e7979e956e3dddedfe1048737c8d2f0784724bd",
+      "bytes": 31888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_vdisp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_vdisp.ko",
+      "sha256": "673b737d08b07e2aa7d6ee6cf40c7327e73b7019386e59c625a6e1f5caab1e7d",
+      "bytes": 24864,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtk_wdt.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtk_wdt.ko",
+      "sha256": "0c492130adc77b6690dba12ad4d66391405c6370d1907799230ef60a2f8df543",
+      "bytes": 24992,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mtu3.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mtu3.ko",
+      "sha256": "7945279324ab8484f4c9c7b76d4fb8a261096acd9aecffe083772db13734bef7",
+      "bytes": 226624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/mux_switch.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/mux_switch.ko",
+      "sha256": "de53dbd5eb4cfcd4cd2124281afd59c74b2ee15b527687115e2634be4cf14648",
+      "bytes": 32256,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/nuvolta_1652.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/nuvolta_1652.ko",
+      "sha256": "704ca7117ae6185e11e860981739f96df172d80d0b6002d7a4b2f1cc89d73cf3",
+      "bytes": 179904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/nvmem-mt6681-efuse.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/nvmem-mt6681-efuse.ko",
+      "sha256": "6715cdb9d378b505039da302cfb4f2e0db761d9c7c4d671abb10b0dade0f72b4",
+      "bytes": 16736,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/nvmem_mtk-devinfo.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/nvmem_mtk-devinfo.ko",
+      "sha256": "ab1edaa9ba63fa093bb74e5fdd4d060ba667f7c75099133b70da4ace3c4f80df",
+      "bytes": 14912,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/panel-n12-36-02-0b-dsc-cmd.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/panel-n12-36-02-0b-dsc-cmd.ko",
+      "sha256": "f7db5a1b45a48a0543ad44f30e80d00f391f9c24f86e4da5fe0b941297910c9e",
+      "bytes": 529000,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/panel-n12-42-02-0a-dsc-cmd.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/panel-n12-42-02-0a-dsc-cmd.ko",
+      "sha256": "ddefc35ffa63bbb53bfd05918cac57114a18ee2fd8fe535879ab3775d90c1619",
+      "bytes": 449336,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pcie-mediatek-gen3.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pcie-mediatek-gen3.ko",
+      "sha256": "d898b8130c6d455d876dece6ded8cc9bb7e8f46802783b8b5927d87bb4493380",
+      "bytes": 69112,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pd-chk-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pd-chk-mt6989.ko",
+      "sha256": "24f4571104b643fcf16a39699a59868d8007aae85ebabe8e2cdd282a8e377df5",
+      "bytes": 53896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pd_cp_manager.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pd_cp_manager.ko",
+      "sha256": "f21c9b748a572904dabbfad49c073f32b6465075a7d6a5cb7e471ed4252803b4",
+      "bytes": 70496,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pd_dbg_info.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pd_dbg_info.ko",
+      "sha256": "d12464d0ca955faf639c638455ad7fb15a2a3b59af5db27229d0226c03e3d011",
+      "bytes": 19600,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/perf_helper.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/perf_helper.ko",
+      "sha256": "dd8886535638bb77a2484c8971f317a4efedd97169f800fd29e9ed3f5ee704c4",
+      "bytes": 18472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/phy-mtk-pcie.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/phy-mtk-pcie.ko",
+      "sha256": "5c1c1034a6bd0683d1fc34556b687830bcccb479f3b7c6600178941d0b75f9d0",
+      "bytes": 23944,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/phy-mtk-ufs.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/phy-mtk-ufs.ko",
+      "sha256": "6f48940219471a47de7223657caae17d9f684d8e94d9111d32e50b86fed48873",
+      "bytes": 19648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/phy-mtk-xsphy.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/phy-mtk-xsphy.ko",
+      "sha256": "fcb97a4e16ad1b49b87d7eac427693a5f678885c9d579ed20787508521665ddf",
+      "bytes": 92824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pidmap.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pidmap.ko",
+      "sha256": "502ac1358b71c7b525ef73ee70b9dff13b9a2635ef32d47180f16a19c42eda9f",
+      "bytes": 23896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pinctrl-mt6373.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pinctrl-mt6373.ko",
+      "sha256": "1e63745d0302d9a605af995851d3b67504aece03e9f55d0c06ed546336c1309c",
+      "bytes": 18280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pinctrl-mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pinctrl-mt6989.ko",
+      "sha256": "9cdba73dd5e33210d0ff1ca42e2bd207a640646e19e89cc85464f6fc3771f9b4",
+      "bytes": 137776,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pinctrl-mtk-common-v2_debug.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pinctrl-mtk-common-v2_debug.ko",
+      "sha256": "9b8b438a6dc5c92e806bed69fbb0a7236af6fc347f475c358aed8afe473bf607",
+      "bytes": 30528,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pinctrl-mtk-v2.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pinctrl-mtk-v2.ko",
+      "sha256": "9cc8b5f0f4e5e7fd55c4071dedf4620fbb499ee15d1321fc5a935fc209bb7fbe",
+      "bytes": 111408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pmic_lbat_service.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pmic_lbat_service.ko",
+      "sha256": "35dc0ecc45c9f485564bff85720cae4429034f2fe6c0cb6ce1852d0d7bd13ea6",
+      "bytes": 53280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pmic_lvsys_notify.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pmic_lvsys_notify.ko",
+      "sha256": "aae62b21175da6a55a31c55ed8fb83c0c73b20b6ea0fbc7efa9a6d9f440f0172",
+      "bytes": 24232,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ps5170.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ps5170.ko",
+      "sha256": "fff31062349f126b2f4e81cacbd2fb3d762c7ce20f867283fa87e7aa7b452591",
+      "bytes": 32208,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/pwm-mtk-disp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/pwm-mtk-disp.ko",
+      "sha256": "27064f9b3d09c5403616e532d46e6624fc87e5f281c1f9ba8593932f3a8bb82b",
+      "bytes": 23648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/reboot-mode.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/reboot-mode.ko",
+      "sha256": "79aa9148d1c8676251ce2818937991847751f6c8e32467e05dc20ecf1cf8af0c",
+      "bytes": 16712,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/reset-ti-syscon.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/reset-ti-syscon.ko",
+      "sha256": "e5c07112f7899b7896df49021398be73adc6e55d0f9a52e694853c2c38836e46",
+      "bytes": 16160,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rpmb-mtk.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rpmb-mtk.ko",
+      "sha256": "51e00fefc04972d351a725499f40810e73e4c27819d5f46aa6be9fc4f5945773",
+      "bytes": 86752,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rpmb.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rpmb.ko",
+      "sha256": "bf119080ebbfd58ac5c41eecd127c2861552df553455e1f7238a8aa293d0b554",
+      "bytes": 26680,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rt4803.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rt4803.ko",
+      "sha256": "ed9caaa50dc49f9f21a66dff8469e4b76edabcfc3e5274ec168c40361a96ef31",
+      "bytes": 17344,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rt4831a_drv.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rt4831a_drv.ko",
+      "sha256": "4c2158a638ae081e34daf7b634c3c7e87b8d512420bc559758ff021ec2b70f30",
+      "bytes": 33464,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rt5133-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rt5133-regulator.ko",
+      "sha256": "542e3c0fde9e057daa57d98df092fa8f8d7b3058effe7e1acb19bca7e35f7b1b",
+      "bytes": 37528,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rt6160-regulator.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rt6160-regulator.ko",
+      "sha256": "f44df8f657331ec2a86b05cdc83090a9e56177c66dce5b88fe85e67830c560ce",
+      "bytes": 22624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rt_pd_manager.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rt_pd_manager.ko",
+      "sha256": "90ef4d89319200246b679eb6b4836f089ce4f292e7d37584a52d098caaa45ece",
+      "bytes": 32904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/rtc-mt6685.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/rtc-mt6685.ko",
+      "sha256": "434c5ea92198ec59ac4c9eb930fcf764e79c8b56a5ebca77f8ca405c40998290",
+      "bytes": 58472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/sc858x_charger.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/sc858x_charger.ko",
+      "sha256": "5dbcdeb3d6679529e1a7284317d1d69d8fe19cd7b0c73757a4be09d85d047914",
+      "bytes": 71520,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/sec-rng.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/sec-rng.ko",
+      "sha256": "caaec80a045f0fbff83b02d3d0bd7fc38df3362650e7415d45cec5644f082803",
+      "bytes": 17752,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/sec.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/sec.ko",
+      "sha256": "e233e72ed3d51a224e9c929f8714afb536ae974365e40027fdb111038b9a2622",
+      "bytes": 51432,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/simtray.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/simtray.ko",
+      "sha256": "ca2d54040c6b5974b0af9b1753572e8e76063b6b41c8ede6ed74f6040f8b2897",
+      "bytes": 14224,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/slbc_ipi.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/slbc_ipi.ko",
+      "sha256": "b8ac5cb15761ce22861ce746dbfdaab702633e2b965bdd2c7e94a0eaab8b687b",
+      "bytes": 44368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/slbc_mt6989.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/slbc_mt6989.ko",
+      "sha256": "75ca3d900a7d0516e04aa37526b9571deb895f27dadbe49cb610c1ab2d551571",
+      "bytes": 118856,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/slbc_trace.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/slbc_trace.ko",
+      "sha256": "3ffc55533a5fa08b8c63039981abcb7392e3cbb76a072af94fe71ecb0681e4ed",
+      "bytes": 31488,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/slc-parity.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/slc-parity.ko",
+      "sha256": "33093e89c5f4f3f060a0d06a49a9b4359298241f3a6c21967a270d9e12f1eb0a",
+      "bytes": 22232,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/smmu_secure.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/smmu_secure.ko",
+      "sha256": "aee99e54d374b5f82debe382ac453908782c33de870e09bbecb23dcb389c57ac",
+      "bytes": 17800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/smpu-hook-v1.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/smpu-hook-v1.ko",
+      "sha256": "ef7bb00b853634ed79b52d0ab40365e2b90494bc088cd03cca66e3d7e716fbce",
+      "bytes": 14048,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/smpu.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/smpu.ko",
+      "sha256": "62e443894e821e9b5061af7d498b40b4a41026c5609361300cfa8f777196b26b",
+      "bytes": 35976,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/spi-mt65xx.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/spi-mt65xx.ko",
+      "sha256": "e855a283d60bfe28f65c0bdd4c5d0d0f0709b7eb392a2c7f527b75260b1e23ba",
+      "bytes": 60000,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/spmi-mtk-pmif.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/spmi-mtk-pmif.ko",
+      "sha256": "1109ae11a13fff98f5974b75ba4c834c82f7f8f41f350544d7991f178ae0dff6",
+      "bytes": 115992,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/syscon-reboot-mode.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/syscon-reboot-mode.ko",
+      "sha256": "88f4a3ed8d0b9df6b7582ee49325203471c66468390d670529571a9ff75a9bf0",
+      "bytes": 14464,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/system_heap.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/system_heap.ko",
+      "sha256": "86c125447ba47cd412a3f8df13456cd7c68b8df1b49c210ab6201fe2e91e2965",
+      "bytes": 123168,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/systracker.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/systracker.ko",
+      "sha256": "ec376f7c83a931f5e6a1bae62735c2602d4efbaab26f94f82cc23ca1e6b38b9f",
+      "bytes": 28728,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/tcpc_class.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/tcpc_class.ko",
+      "sha256": "9ed2721988ebf2c4ebd54df44702dc405eba9efa22373f2bfbbe16730f537d68",
+      "bytes": 554160,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/tcpc_mt6375.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/tcpc_mt6375.ko",
+      "sha256": "7966a5f79ba9bb9855b2409974465072fe06a76bf01afb14a28d83348deb7f4b",
+      "bytes": 66912,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/tcpci_late_sync.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/tcpci_late_sync.ko",
+      "sha256": "c9c2f46511b61e8c1b918dad33618ef56b73e3ddf380378950cca75584dfb88d",
+      "bytes": 10624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/teeperf.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/teeperf.ko",
+      "sha256": "0f5772c9783eb34fda217ce5a525ed28a2e82eb2c8d901ba3fc99643c7f4e6d6",
+      "bytes": 26128,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/timer-mediatek.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/timer-mediatek.ko",
+      "sha256": "db519164ae951f2e5f9e9c7e71d9a7b9a6f8e91afea6e90b4b767f806b48dd55",
+      "bytes": 28872,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/tinysys-scmi.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/tinysys-scmi.ko",
+      "sha256": "e7adb2e9c8aabaabcf3747daa10f967d82fdbf37d2ad644d8f12dfab03ef0f16",
+      "bytes": 24712,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/tui-common.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/tui-common.ko",
+      "sha256": "a60869419280f6a7b71254d4254a3f2bec2bf9cf3aa0fe209f5e23e840c5e1b4",
+      "bytes": 13968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/uarthub_drv.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/uarthub_drv.ko",
+      "sha256": "db226b12c4aed471cfc93040dd8d3fe3a29f728f6b85aca6c6cd1984f437c28d",
+      "bytes": 369816,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ufs-mediatek-dbg.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ufs-mediatek-dbg.ko",
+      "sha256": "d228e28dbf916ada59c37fd5f0cbca9a7deeaf6ccd1bef50056305f9b0dae7f5",
+      "bytes": 76888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/ufs-mediatek-mod-ise.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/ufs-mediatek-mod-ise.ko",
+      "sha256": "2b9091cc2726ed657ed78a1a63b1ab4b0c09a158d0dd186cd902fd069e6ecd67",
+      "bytes": 18412432,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/uload_ind.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/uload_ind.ko",
+      "sha256": "9072f803ca6644b1d7ac348c640a4e18e019bbf1fa6d66107b6a6948bb7415eb",
+      "bytes": 47952,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/usb_boost.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/usb_boost.ko",
+      "sha256": "621795392bffa75642a2689bb5523302213a6e227643950c126fe15c4b43fe24",
+      "bytes": 66904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/usb_dp_selector.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/usb_dp_selector.ko",
+      "sha256": "83f20cfff9ccffdce2ac8110fa164188f56a32436c24245bf4d86272d81e0e77",
+      "bytes": 19928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/usb_meta.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/usb_meta.ko",
+      "sha256": "06a93255f1b3c03e7500e6ef7b0c55174f5f36e1953e1f2a29ac89db319c022d",
+      "bytes": 67928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/vcp.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/vcp.ko",
+      "sha256": "02460a365aad6f04699562614c03f02dfb8015cdd480b8e7f831ec41b0e73e22",
+      "bytes": 269096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/vcp_status.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/vcp_status.ko",
+      "sha256": "3a5ca273605533e5cccc13487bdcbe2a327698a73ac246b6dc6aeb9ac76732f1",
+      "bytes": 22624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/vis_display.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/vis_display.ko",
+      "sha256": "198ea5a1c3ff5df3c41211f4b21bde89a33dbabbc8b3ce03a605497c6fac5c3a",
+      "bytes": 486208,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/wireless_charger_class.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/wireless_charger_class.ko",
+      "sha256": "b06eaa4838bce6e4e78cf3da79f8a41d39e6e64c064c2fd51ef5c8c6992c9d23",
+      "bytes": 33088,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/wl2868c.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/wl2868c.ko",
+      "sha256": "ab8520323cb622f9996465eb4fd95ed8cff7b0b47ae2edf8d61c3473f5abd330",
+      "bytes": 37328,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/wlan_page_pool.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/wlan_page_pool.ko",
+      "sha256": "63c4a5ed11ca10320bded15b6189bedc2ed147751a6021df18eba1ab40c55401",
+      "bytes": 33568,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/wls_cp_manager.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/wls_cp_manager.ko",
+      "sha256": "f0bdd7bf3c6c8f4f41293b99065a2a07cd062b052eaa2e58bc24935e24f7689e",
+      "bytes": 46720,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/xhci-mtk-hcd-v2.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/xhci-mtk-hcd-v2.ko",
+      "sha256": "faa17eda17863cdc6f5191efb6e58403f78fb071bd182db679329d7dcf52f9ea",
+      "bytes": 482464,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/xiaomi_touch_common.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/xiaomi_touch_common.ko",
+      "sha256": "e7bc6bd8e07b042a98d7484640647083de65758d1eaa09e295be77f8778ed319",
+      "bytes": 225928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/xiaomi_wifi_gpio.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/xiaomi_wifi_gpio.ko",
+      "sha256": "e6fa913e9bf3ccbbb67f094581648c90acbc9030668728914a0cb8089f68d0d7",
+      "bytes": 23920,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/zram.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/zram.ko",
+      "sha256": "daabc9b1bd76ce51c8a701a67eca4eeaf8080608d11aa6a5e25bd71db20543f7",
+      "bytes": 97928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_ramdisk/zsmalloc.ko",
+      "input": "artifacts",
+      "source": "vendor_boot/vendor_ramdisk00-files/lib/modules/zsmalloc.ko",
+      "sha256": "f5adc0ced12a57acc5282f9f8f379f03b7df44fc0e4a5f618c184680b300b6ad",
+      "bytes": 52248,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/adsp-v2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/adsp-v2.ko",
+      "sha256": "31e14381b8d2052d9d8f91d39749c192cdc2918b5b5cf73928e51bba276e539a",
+      "bytes": 40240,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/apu_aov.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/apu_aov.ko",
+      "sha256": "ebe2cc9d7d4b82f0d1c0e2b1b6aefc81174da6048d19a94fe5abacea437e11f9",
+      "bytes": 80376,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/apu_top.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/apu_top.ko",
+      "sha256": "7ebc108297c36498fa5aac5588e24deee67c4802be839d04d894bb7aa71bf507",
+      "bytes": 540240,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/apusys.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/apusys.ko",
+      "sha256": "704a9747ee329b87ba262f4db893056c6a2737f79e3f5cdabe0ecca9c7a7d41a",
+      "bytes": 2465992,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/atf_logger.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/atf_logger.ko",
+      "sha256": "b2a390aae761eb38eb7a2780ed45941e7eccf2b69cdaa92360d1fbbb99b955db",
+      "bytes": 56864,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/audio_ipi.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/audio_ipi.ko",
+      "sha256": "2d8f29cc82a8a80372025a20cf316bd0534d36c73128e54e75b0561364b07627",
+      "bytes": 200192,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/backlight_cooling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/backlight_cooling.ko",
+      "sha256": "12ce5833ad270b9f5ce42e4c592034bfacca8a72e7060970519bb526ba633d1b",
+      "bytes": 16232,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/binder_gki.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/binder_gki.ko",
+      "sha256": "5f71ac45699792a621736a464e5d6778c2a9218c4e3d6803fb6690f05a1cfda1",
+      "bytes": 17712,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/binder_prio.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/binder_prio.ko",
+      "sha256": "2f8fdcddc9adaa02223f7d7b4211dbae629501d77bb94bf5667d0e86cb2c6cc7",
+      "bytes": 25416,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/board_temp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/board_temp.ko",
+      "sha256": "ee4d5d6579faa2238fbb3f8d32fa5be66a69edce8f1ea4ef1f4d18f62f56c1f0",
+      "bytes": 18944,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/btmtk_uart_unify.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/btmtk_uart_unify.ko",
+      "sha256": "f8d7f51ce146b132daf94afa8b64987e564649c18cadf6385d08721e55bb162b",
+      "bytes": 612432,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/c2k_usb.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/c2k_usb.ko",
+      "sha256": "b65b78accf995478bf46f06c9a946513ef6ace745880c5f164e68222f42ffdca",
+      "bytes": 95040,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/c2k_usb_f_via_atc.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/c2k_usb_f_via_atc.ko",
+      "sha256": "e6ba18df29785c2539c28d56198d077e097a49a3d4f45ad546ed90cd93d18bb2",
+      "bytes": 11408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/c2k_usb_f_via_ets.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/c2k_usb_f_via_ets.ko",
+      "sha256": "264366adad954795f1d5a26b356d8e24aedef82b5726a9dc15a2d6aad216e06c",
+      "bytes": 11408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/c2k_usb_f_via_modem.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/c2k_usb_f_via_modem.ko",
+      "sha256": "06032074577b6da62c98b756b05db62ecd8435f0504f87cba81cf20ee534d09c",
+      "bytes": 11472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/c2ps_perf_ioctl.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/c2ps_perf_ioctl.ko",
+      "sha256": "c6d7d5d63b5379476ac57725319c053a4821d45057b6d3fdf4ee45ecb71fe283",
+      "bytes": 22192,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cam_log.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cam_log.ko",
+      "sha256": "19a53a50f1f627a49e05dabd0eb9ac41e6809a462c776de50be3da1c6d3bd645",
+      "bytes": 37432,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/camera_af_media.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/camera_af_media.ko",
+      "sha256": "3f2af06e4104e343abf7ddc6cdf6cc1c064ae9c17f6180754a3308b46212ecb0",
+      "bytes": 20416,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/camera_dpe_isp7sp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/camera_dpe_isp7sp.ko",
+      "sha256": "2008c4da05aa020445aed083d7354c8d36b3e1f508706d89908bc795c9188d7d",
+      "bytes": 301368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/camera_eeprom_v4l2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/camera_eeprom_v4l2.ko",
+      "sha256": "fa508f1b406f440cdc544a5c6ea1c75914d09967499be68d72a1827da53693ae",
+      "bytes": 164104,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccci_auxadc.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccci_auxadc.ko",
+      "sha256": "ccdf4a29de1b2e2dcbbaf919670c553d8e76ce4d6fa35fb395855ce16303d6aa",
+      "bytes": 17376,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccci_ccif.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccci_ccif.ko",
+      "sha256": "be8082ef100f57cad99b6d8c46e84ec33a9e6cc8806770ec6b2f7ac94c3021ed",
+      "bytes": 114632,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccci_dpmaif.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccci_dpmaif.ko",
+      "sha256": "9a26e3bff28d4c5ca7a8a519490481e88bae10035cdbf48357e1147f39016aa0",
+      "bytes": 355888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccci_fsm_scp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccci_fsm_scp.ko",
+      "sha256": "171c579ce6cec874fcbea6d77e2cff7c13d4b3200b4a0b368580b2d6b71da059",
+      "bytes": 39520,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccci_md_all.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccci_md_all.ko",
+      "sha256": "a60800fb559e403149908683f01a126865bb691ec8bbacd3533790d453715745",
+      "bytes": 904200,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccci_util_lib.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccci_util_lib.ko",
+      "sha256": "76c858274c2bcd5d7c92ae26b1a04f1c79b0b6035b14830aecbd2149a90d9ead",
+      "bytes": 239408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccd_rpmsg.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccd_rpmsg.ko",
+      "sha256": "7ccba7da61394199b9b069e7ab8ed7fb768bbb550c8141fe5f2b6fb8717d9834",
+      "bytes": 50840,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ccmni.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ccmni.ko",
+      "sha256": "4982050dc7b26a7dc2714c15786cf81a8be8ed06ee5c60a13666cccec1daa262",
+      "bytes": 51072,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cfg80211.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cfg80211.ko",
+      "sha256": "d822f20196c3071e130db17cec7410023a84983e0dcf308f913e2832cd28a0b5",
+      "bytes": 2073096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/charger_cooling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/charger_cooling.ko",
+      "sha256": "e5ce0b8a7e6626e60b62a8ac3aabe75716fae6d358183dbf9ae4e10176106774",
+      "bytes": 22384,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/clk-dbg-mt6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/clk-dbg-mt6989.ko",
+      "sha256": "297f4922ba3f35ed09704d45e626238075948974daa1396d8e4c3617a7045312",
+      "bytes": 49968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/clk-disable-unused.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/clk-disable-unused.ko",
+      "sha256": "b5fc3b2e54f4a18c15b21a9c6d211885dfa8fc5cce20420aba93b2880fdef767",
+      "bytes": 15376,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cmdq-sec-drv.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cmdq-sec-drv.ko",
+      "sha256": "8283c8b7acf1c4c0406c29a1872b05ba8333ea4609d76a1e4a309e3a488aaad1",
+      "bytes": 97632,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cmdq-test.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cmdq-test.ko",
+      "sha256": "8f0dcb11750cd8c84c0c19188eef85a0178a94ad624a65fa1bff40a73ed2a9b8",
+      "bytes": 79256,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/connadp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/connadp.ko",
+      "sha256": "a33094dee41aa8c5d352b2f994b722f7e8e644d53cbfd20ebce5d07679d507de",
+      "bytes": 85624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/connfem.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/connfem.ko",
+      "sha256": "792904b39bfdb17e344651fcc2e0b62cb30f280109691505d2bae23c43c6f250",
+      "bytes": 135184,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/conninfra.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/conninfra.ko",
+      "sha256": "a55804a5d530386874ec5d5aaa239163712e9339c52812a5444285021156eb2a",
+      "bytes": 1483528,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/connscp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/connscp.ko",
+      "sha256": "894176403f145d6db6844bab731bdf8d8fd4bc5591ff5b22bc2ac8ae45d528ae",
+      "bytes": 128632,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cpudvfs.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cpudvfs.ko",
+      "sha256": "795d6405353c2e8ab02ffe2d98c426cdb5ab8189642a2d39ae6762df16ea7876",
+      "bytes": 22920,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cpufreq_sugov_ext.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cpufreq_sugov_ext.ko",
+      "sha256": "5077e27a865055b58ac799a3f1d53ec587f15994e033b734c87a76030c9de62e",
+      "bytes": 253176,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cpuqos_ext.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cpuqos_ext.ko",
+      "sha256": "7d7b0ba5c7115116e0d9839631f0e28373dcc62b1c01deba0d1356cfd83e41be",
+      "bytes": 12320,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/cpuqos_v3.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/cpuqos_v3.ko",
+      "sha256": "6bc1dcf86574fb2a44fdaf91e0e90b0e9a5fd9c1f161d9f5cb07c95e609a3c39",
+      "bytes": 95392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/dw9781c.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/dw9781c.ko",
+      "sha256": "f62861cc2b47bc9bf20d0e3a8dfd013f2b6f6695e883a441e2f146f3251fc900",
+      "bytes": 58208,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/dw9781d.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/dw9781d.ko",
+      "sha256": "952190cffdb9aa2eca141cbffc0ee87baa6945b451a0b3a27bc6131fdb57bf42",
+      "bytes": 99240,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/eas_ext.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/eas_ext.ko",
+      "sha256": "8cad72c84d2f6587726148dd8f3c1a6cf9a6c15339dc5fed92cbbd5eb5c14384",
+      "bytes": 13512,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/emi-fake-eng.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/emi-fake-eng.ko",
+      "sha256": "518fb80a5454789b1724ca6fe0b63b234a10c746340c81d9f6614e78c0ffa4a6",
+      "bytes": 25416,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/et5907mv.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/et5907mv.ko",
+      "sha256": "b77345de0f98d5a8e43793c23b91b00a68269bf74888c4046e95e29bc335819b",
+      "bytes": 36800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/et7480.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/et7480.ko",
+      "sha256": "9949ef8c8e3170082c7d543f5087387b6b4731cda2a1d902ebff705f7c755597",
+      "bytes": 43568,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/fhctl.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/fhctl.ko",
+      "sha256": "cf71eb2db835352a555005a4409680df38e08c303abfb95eed6d3ac9406aa5f9",
+      "bytes": 109472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/flashlight.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/flashlight.ko",
+      "sha256": "70c80fe7e55fee67883757f0beb19ed11bb8fd7b02d0ce7cf369be7a35059db4",
+      "bytes": 115720,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/focaltech_touch_rothko.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/focaltech_touch_rothko.ko",
+      "sha256": "2015e867b32f72806b8ab6360dee5e1b483b7153b472488c2b66126d6cac9923",
+      "bytes": 740368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/fpsgo.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/fpsgo.ko",
+      "sha256": "aa42f36e2f6f6eb39ef44a59a0c108a4e703050db6420d681b275e551c761b97",
+      "bytes": 55800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/frs.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/frs.ko",
+      "sha256": "c83f8589b7f04d48d898f82cb1d8506acf262203e8510c4380b43dd838b2280f",
+      "bytes": 19976,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ged.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ged.ko",
+      "sha256": "9d237e1068929f05a22c7472a1f72b92d589b27ea51f70e3101f737d4f62d3b5",
+      "bytes": 710392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/goodix_core_rothko.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/goodix_core_rothko.ko",
+      "sha256": "9953f3ea1b94bc71b57b74211a94701aa2354589f52f1e381152db38340fbcfb",
+      "bytes": 693880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gps_drv_dl_v061.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gps_drv_dl_v061.ko",
+      "sha256": "cc517898646314d2a587b4b7d060102c3b7c44c4e4f699455063b22d196c8f82",
+      "bytes": 1171984,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gps_pwr.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gps_pwr.ko",
+      "sha256": "c947685348a32a9afe8bb168f9f517155ea698fad88517f0caf8099593bd4210",
+      "bytes": 22232,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gps_scp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gps_scp.ko",
+      "sha256": "b621f840760f4f2e260f4322f8ff6fd0a821fc0bfaa1be149d4d41666ae660a9",
+      "bytes": 31136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gpueb.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gpueb.ko",
+      "sha256": "5469ba70a0e02eb78554298f8e1e025644ebff224d6575ac00dd50936948b3db",
+      "bytes": 109016,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gt9895.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gt9895.ko",
+      "sha256": "890b7dfa26b18d6e241d472327828be6f36cc64026ab19ce9a3c7ca748d75a26",
+      "bytes": 198576,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gt9896s.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gt9896s.ko",
+      "sha256": "491fe8d239fc099fb78b5ed38c73e00b623b49fab934f4dd3202bcd541b69290",
+      "bytes": 181320,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_ipc_mod.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_ipc_mod.ko",
+      "sha256": "79bf9cdcc4c2fe0aca28413e11cb2b3e19e990520e961a35e2a968f8433b96bc",
+      "bytes": 78648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_irq_mod.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_irq_mod.ko",
+      "sha256": "403725c9a3c65282bbc8cec4772fa5ce5e3ed5bdf93a6238fbd68e38d9043e9a",
+      "bytes": 30800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_log_mod.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_log_mod.ko",
+      "sha256": "d0602642087122743477a99eed4f01811692562cef837b97ee843b1c903c62e9",
+      "bytes": 31872,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_main_mod.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_main_mod.ko",
+      "sha256": "d0f535071649caf412588887c9579326e1367f1250bc60cec722a65d48f8772e",
+      "bytes": 159400,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_trusty_mod.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_trusty_mod.ko",
+      "sha256": "afaaff118abbdc812a7c39f3b41df4cbbaad5ef62c3636f6e9190f0dad158f3d",
+      "bytes": 53848,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_tz_system.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_tz_system.ko",
+      "sha256": "30682e18afcc040773e532ed5bde7a40eb120c271ec3d80a1c4add3c94d50d57",
+      "bytes": 78320,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/gz_virtio_mod.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/gz_virtio_mod.ko",
+      "sha256": "2ab8d60f0ff14beedda8dbdd1c024f076cf12362b10e6e821e087d0e82e43c1e",
+      "bytes": 43128,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/haptic.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/haptic.ko",
+      "sha256": "e32f5930c640ee73ca78e9d37ddf445c841ca5fe2e3f57c130321030d7761e85",
+      "bytes": 315616,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/hardwareinfo.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/hardwareinfo.ko",
+      "sha256": "fcc2887433203381f3337889d8dfcafcc63b76a25d974de238e0731fc97dc8b7",
+      "bytes": 15496,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/hbt.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/hbt.ko",
+      "sha256": "55af080299acb48d8cdd642e258be9c903713cefcbe13515d32aa3a6a52b515e",
+      "bytes": 53064,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/hf_manager.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/hf_manager.ko",
+      "sha256": "e4680fc90d36a08399a50af8d9052038ec240c4cc534d79a14fbf6e228901cac",
+      "bytes": 75168,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/imgsensor-glue.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/imgsensor-glue.ko",
+      "sha256": "6a7902ebfa09c62efa3cb01ef86b6d05b9fba33c3d6f18ed83309a28d11a4217",
+      "bytes": 13888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/imgsensor.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/imgsensor.ko",
+      "sha256": "b92d8dc34c8bbf37e9f70098c6902f3a9c327c3a0c722b0df4e4b8e10525a94b",
+      "bytes": 1040048,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/iommu_engine.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/iommu_engine.ko",
+      "sha256": "78330ee625cd51d3e2172758024d15ee0219d44d2b1058b1604ffcc150fd95f1",
+      "bytes": 15408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/iommu_test.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/iommu_test.ko",
+      "sha256": "b6d883c3ee9c3fb8fbc4f5f164fed8298ff73a436fc799c28b4a3be6b12a96e0",
+      "bytes": 9536,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/jpeg-driver.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/jpeg-driver.ko",
+      "sha256": "85e30f7a937582370fa8dd528fe95bcd11f6a1cb73e48968ed62cedec8b808de",
+      "bytes": 101752,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/lb.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/lb.ko",
+      "sha256": "d0e15d8b286f49351fd7cd5bbdad44d897566395028705c97ad013d124903191",
+      "bytes": 132288,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/lm3643.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/lm3643.ko",
+      "sha256": "c479c26901976db21d7595cabbc4f1acac336c9e90871471083fc15ce4b4dd4a",
+      "bytes": 38768,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/load_track.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/load_track.ko",
+      "sha256": "40907e02d04c63c0ae5e1ea4c6d62644c8731c9b55455aeb36df3702c46e2c1f",
+      "bytes": 21664,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/lpm-gov-MHSP.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/lpm-gov-MHSP.ko",
+      "sha256": "47416aa0cb3ca15facda51066bffa4209425a10eecb2a82032f65656cfcec2aa",
+      "bytes": 39936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mac80211.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mac80211.ko",
+      "sha256": "25544af3ec514ce5fa0145dfc70ddcef817491ff8ad23c7935eb66105608562d",
+      "bytes": 1972824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/main2_vcm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/main2_vcm.ko",
+      "sha256": "5781e398983e14a7c0a9ce65f59dc873ce701ebdb0c1e796ec28ae9ab1354db1",
+      "bytes": 33152,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/main3_vcm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/main3_vcm.ko",
+      "sha256": "a06486287557ac4333231b1d163278a352fa6de439670978679c2f9748fa68a4",
+      "bytes": 29456,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/main4_vcm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/main4_vcm.ko",
+      "sha256": "789541f86a2327711a578d1e593d446e574613bbf20283aebdda52cf5500b614",
+      "bytes": 29456,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/main_vcm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/main_vcm.ko",
+      "sha256": "0b0915e9a986cf97e7436162f0f985c412ae27e1a1ba220afd9d92eb113fb5b8",
+      "bytes": 33264,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mali_dmabuf_test_mt6989_r44.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mali_dmabuf_test_mt6989_r44.ko",
+      "sha256": "19d9d9f345f2b52709d8ecd7981a4bc161d7d6f635684714672b68adf83d8846",
+      "bytes": 43512,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mali_kbase_mt6989_r44.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mali_kbase_mt6989_r44.ko",
+      "sha256": "ccf027b1e35c565f0601f8ade19fed1be788932a309063cc6a01ecf805223e34",
+      "bytes": 2201992,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mali_mgm_mt6989_r44.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mali_mgm_mt6989_r44.ko",
+      "sha256": "3446b7538086b0b7a26d58079beffd65c76e1a67597325631d2e12cd2267df2b",
+      "bytes": 53104,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mali_prot_alloc_mt6989_r44.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mali_prot_alloc_mt6989_r44.ko",
+      "sha256": "094ed647ca1d1f2829d893d04bb4624b79582ffb34c48d20ba579312cb4e2c2c",
+      "bytes": 24080,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mcupm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mcupm.ko",
+      "sha256": "d03e0ea2a9ce9c243a773d230e1b96afecbd682296020552d2add1d1e79d0615",
+      "bytes": 60224,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/md_cooling_all.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/md_cooling_all.ko",
+      "sha256": "61b1227506983d5ac9dfc92e9b498dbb49be061279f30b9cfa5d7dc37b854388",
+      "bytes": 48928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mddp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mddp.ko",
+      "sha256": "f8f845221de47a5c6b27669b35a5d9ff3fa8862e4a4aa43f2f8485edae6bfdc6",
+      "bytes": 182768,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met.ko",
+      "sha256": "643bc64282c8b8602511112d3aabf483c31a1b71985a0d073778b9956ce806e3",
+      "bytes": 1260560,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_backlight_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_backlight_api.ko",
+      "sha256": "cd702bd00dea9dece9196d4e57fbbc269003d31d45e04888fabc4d7deb528c98",
+      "bytes": 11320,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_emi_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_emi_api.ko",
+      "sha256": "ec7d2dc9e5a023bbeb8abf800d18fb86c1e9da8afb34f82c369b61c2d4199a41",
+      "bytes": 12008,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_gpu_adv_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_gpu_adv_api.ko",
+      "sha256": "e2f76d1ff0408d154a433cb77ac8295e444d9058c378b6407eb45a8614636502",
+      "bytes": 11728,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_gpu_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_gpu_api.ko",
+      "sha256": "85c87632e05e5b4e174f92e37205121cc6cb506114988d1a8e1ba2190db13811",
+      "bytes": 13880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_gpueb_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_gpueb_api.ko",
+      "sha256": "694044fcad5243cf5af81551906ed748685c78ae34cff7f3045a7d28d77a2c5b",
+      "bytes": 13304,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_ipi_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_ipi_api.ko",
+      "sha256": "d960caa1ea6a54825a50a6e093ab9492389725a4c8a5d474f9fe72d7ee781663",
+      "bytes": 13344,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_mcupm_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_mcupm_api.ko",
+      "sha256": "9a9c25b3b951ecae14c429315388d83d419fdbeed11d3186be1c31e67d19764b",
+      "bytes": 12392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_scmi_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_scmi_api.ko",
+      "sha256": "97002201340e2d91ed5cab8e9d31ace30de11d204bce5889fded9253e897a245",
+      "bytes": 13064,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_sspm_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_sspm_api.ko",
+      "sha256": "75b30534a61090079c9cb73576a03848e653b42b560e66b5a34cdaa15f4b54a6",
+      "bytes": 12640,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/met_vcore_api.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/met_vcore_api.ko",
+      "sha256": "0388fa7491725daa552fa548b8f9a94bcc00884439a167062faaa438086c4f84",
+      "bytes": 13064,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/metis.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/metis.ko",
+      "sha256": "2f9af875ecaffb406e0df29a2a27570cb26923a92a3fdcadf2d927e24af8732b",
+      "bytes": 549624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_asap.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_asap.ko",
+      "sha256": "181950f4814dd1f52895e5eb14a30bb24a9360c3088450753f803be47e0c3f3d",
+      "bytes": 58328,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_exception_log.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_exception_log.ko",
+      "sha256": "0de80c6e86dba137ffa1ea93320f2f511439596a88d8cd1a3d5d1f0c272b998b",
+      "bytes": 20736,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_gps_pwr.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_gps_pwr.ko",
+      "sha256": "79bdd6e8da596a149511f5efe8c7fc0e31c395f3cdae290f99fe77c0e59e2eac",
+      "bytes": 15168,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_log.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_log.ko",
+      "sha256": "831ff13c825e9f73b3d5abebf50cb944c044d0a162e54ef4d0db2f33bb64a7ab",
+      "bytes": 25064,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_mempool.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_mempool.ko",
+      "sha256": "186a393dd357db192b5ca2b908156d880f74f53a74208ff4b7cc0b0b8f015c29",
+      "bytes": 54624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_schedule.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_schedule.ko",
+      "sha256": "f72494e490527977bca7e7ca361e2f433d489468a5859e4c6102fde9af06cebc",
+      "bytes": 80592,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_t1_gpio.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_t1_gpio.ko",
+      "sha256": "2c4af693f28b723de651e19c51c6ab887ecc429996542c6a04e5e02e63967e2c",
+      "bytes": 51592,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mi_thermal_interface.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mi_thermal_interface.ko",
+      "sha256": "b28d32d53a4e35511e456cdf10f0663bfea3b3ed474efed4f17449d1d0c13ac6",
+      "bytes": 50600,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/migt.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/migt.ko",
+      "sha256": "cb775df87bf866de002e090bf95c6cd068404f38177462e3bafc8eaa47ef9184",
+      "bytes": 161408,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/millet_binder.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/millet_binder.ko",
+      "sha256": "bd5be3b61321f384fd24186ca6de1e9be6df5bbdd032e5957b040266da970194",
+      "bytes": 20992,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/millet_core.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/millet_core.ko",
+      "sha256": "14c16bb5830fb7a3c5a461ca1eb3d02659baa083a21e0ee492991abce645a779",
+      "bytes": 36560,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/millet_hs.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/millet_hs.ko",
+      "sha256": "03593819a3b8335b72ffd76cf95c817a409638fb81d2b925c128b1df20e4cc97",
+      "bytes": 11968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/millet_oem_cgroup.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/millet_oem_cgroup.ko",
+      "sha256": "a5c818a70e61e41bb63942b304d97520c03610e20e01a8d5bd74aeceb1895ad7",
+      "bytes": 11608,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/millet_pkg.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/millet_pkg.ko",
+      "sha256": "ead2d2cb839469df917aee2e55f4e93942a12b3e164b62da5e6af96c3c8fea64",
+      "bytes": 17648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/millet_sig.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/millet_sig.ko",
+      "sha256": "f67a886158776b3266b16978fb4ebe1f2fdeb4860af0208adee12b752ee8969c",
+      "bytes": 13536,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/minet.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/minet.ko",
+      "sha256": "2eb85f15984a79f6e77d57558be7e4d5f23e353b51c2e630c954bd8900181442",
+      "bytes": 60624,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/miwill.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/miwill.ko",
+      "sha256": "3c109057bca351d0b40e5ddc8fe356cf0fbcaa3085b07db1e49739fe339e9281",
+      "bytes": 102840,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/miwill_mode_redudancy.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/miwill_mode_redudancy.ko",
+      "sha256": "6c72df8389de7d6b8c1396bbe35c22cafc7ae64621298d84c7223f2d3dd47003",
+      "bytes": 30264,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/modules.alias",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/modules.alias",
+      "sha256": "a63f6ac54a055b49753fa83a7560b2f0c70dfc2e91b00f33facd6a6f3f87a36b",
+      "bytes": 29120,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/modules.dep",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/modules.dep",
+      "sha256": "15e42fffaf83f0cfba1be8eeaf93dcff4ba1149244d72860a3f336b06375327d",
+      "bytes": 60289,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/modules.load",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/modules.load",
+      "sha256": "6b24735d9a96060b43cc7ae2eccf7a11e74319a6bac9fa73523fdf427b304547",
+      "bytes": 4138,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/modules.softdep",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/modules.softdep",
+      "sha256": "c0ece12917e6bb4418d42a338c318321828f7b9e0508d44e4833d6c78aff7bc3",
+      "bytes": 213,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/msync2_frd.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/msync2_frd.ko",
+      "sha256": "ccccfd32961d14ba55a51c86b767c491f1e40e35fc86c01d75b2bf7eae7f6162",
+      "bytes": 13536,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mt6681-accdet.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mt6681-accdet.ko",
+      "sha256": "a9c4e54e9653be894ea19e9d03da9678bb6946962da2e62b865ca01e54b5492a",
+      "bytes": 119664,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mt6989-mt6681.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mt6989-mt6681.ko",
+      "sha256": "9202558a5aeaa9c8d49b7d36bc12e2c22102acb76b812b07a38e3e0618932d7f",
+      "bytes": 110456,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-cam-isp7sp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-cam-isp7sp.ko",
+      "sha256": "dee4ed6f8d7874750975cd850a6a13488f4529020696690b2e3f6c5dd78d41ef",
+      "bytes": 1532272,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-composite.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-composite.ko",
+      "sha256": "3e0dfdc7f2487a8fc88e051d60f89e4318137d654e7ce3afcb2d7800e6f81b3e",
+      "bytes": 20360,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-dvfsrc-start.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-dvfsrc-start.ko",
+      "sha256": "da97199e1aed7a947ec3b7c899fe56f2a07af7351723a8ef6d2f7000cb0a51e4",
+      "bytes": 13656,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-ipesys-me.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-ipesys-me.ko",
+      "sha256": "8f78b2c29bb0aed24909015d35cd44bbb17baf25be8ca76e48729e5deb4790a1",
+      "bytes": 22856,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-ips-helper.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-ips-helper.ko",
+      "sha256": "e85ba0f88e046231262c7169c52c139a84a6619dd390d174291482e5b1992068",
+      "bytes": 29072,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-lpm-dbg-common-v2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-lpm-dbg-common-v2.ko",
+      "sha256": "c0dc933a5ffe32f25583a773ca5b1c8fd971960d2e3d8bd7d7f62c4ff139bbc7",
+      "bytes": 188960,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-lpm-dbg-mt6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-lpm-dbg-mt6989.ko",
+      "sha256": "b475ffe3cb8d2d2db97eedec43ad23d3b60cd5f09fa708ba1561d82a6106ced1",
+      "bytes": 81792,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-lpm-plat-v1.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-lpm-plat-v1.ko",
+      "sha256": "755868e7d313531abbf04f0263dcd34cf9aef8effbd8dd92def6dbd977208e5e",
+      "bytes": 32936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-lpm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-lpm.ko",
+      "sha256": "12aa158a35b9a8fe08d55daae3492070ce7ae87eef809945b91e74420ffa95ff",
+      "bytes": 101208,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-mbox.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-mbox.ko",
+      "sha256": "20b7508de283de9eeb23d9de3b6798e4dd4fb76fa81792473d5e6c0e9cb2e260",
+      "bytes": 58824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-mmdvfs-v3-start.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-mmdvfs-v3-start.ko",
+      "sha256": "6e6f227a6c8a6c29680ef77aaaa79cc4cc2fc61e16c807c65ef4c11c0df15d83",
+      "bytes": 13992,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-pm-domain-disable-unused.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-pm-domain-disable-unused.ko",
+      "sha256": "2b40b18c6d67f36e46fa91d4cb93a15c04700f4a8dd2ef298638583a5fd6a1d5",
+      "bytes": 12160,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-pmic-oc-debug.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-pmic-oc-debug.ko",
+      "sha256": "3bca73498764ffb2c6f209874102d93764c7f78de1d3b95de5de6bafdfe58b57",
+      "bytes": 30664,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-pwm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-pwm.ko",
+      "sha256": "0078bd95f5d117ff8a81f78591e51b426dc525eb7febb1fbf300a418371342db",
+      "bytes": 77688,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-scp-audiocommon.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-scp-audiocommon.ko",
+      "sha256": "4a55cc55a6e2783ca396dfbfc12c65771511cd5d6f2b7749e83ab86cd171d3bf",
+      "bytes": 48960,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-scp-vow.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-scp-vow.ko",
+      "sha256": "f0cd188dbc27c6c0751be72a83c46a2cc8be8d617ba0737c15abb6d8c9dee3bd",
+      "bytes": 12448,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-smmuv3-lmu.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-smmuv3-lmu.ko",
+      "sha256": "beafa09aca0eeec6dc4bd93ef95056bf46ffceed7e11dafacf581be37ad16430",
+      "bytes": 33912,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-smmuv3-pmu.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-smmuv3-pmu.ko",
+      "sha256": "057d140f441839c5c7d795ac04bb28b1f86b3fd3c11c90f2ef97b7dbb89654a0",
+      "bytes": 40800,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-soc-offload-common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-soc-offload-common.ko",
+      "sha256": "c5221397d3f764f649e6fb9ae27f8c405b7801de543d73cf1504631d9194f49c",
+      "bytes": 55096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-sp-spk-amp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-sp-spk-amp.ko",
+      "sha256": "bb89e7d99b59a26cb64ceacbd36e7c4817a9c2e185348c0b0ad2d684915fe052",
+      "bytes": 25920,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-ssc-dbg-v2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-ssc-dbg-v2.ko",
+      "sha256": "79d04473022d44a392536bf94212b61cec393f43cb4a562a3bb61563cbc8b514",
+      "bytes": 17224,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-ssc.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-ssc.ko",
+      "sha256": "3753a6b58f30e799ccd6849db58b769c37c2babd73f0b2b65ffff89a19b374a6",
+      "bytes": 27840,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm-audio-dbg-v6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm-audio-dbg-v6989.ko",
+      "sha256": "c5de27d19a4fd6ad74e6aa1ff61e4330f4d52b6920aa3821c5621451c90498f6",
+      "bytes": 14696,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm-cpu-dbg-v6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm-cpu-dbg-v6989.ko",
+      "sha256": "1c7285ac70467baf8900a8569831a5dd48bd52a04620258df6212a377f996946",
+      "bytes": 15448,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm-dbg-common-v1.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm-dbg-common-v1.ko",
+      "sha256": "898548b48a7849f0ccaf522cb9b9da5ac40127acb5fc592dd3246f9249b5b6bb",
+      "bytes": 20144,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm-dbg-v6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm-dbg-v6989.ko",
+      "sha256": "a871b55571a5c9fe05ef800c9e2ce062a3061a1143b20a379bdf9b6a52e6576b",
+      "bytes": 65440,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm-disp-dbg-v6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm-disp-dbg-v6989.ko",
+      "sha256": "c4560f181e0c31478c99815d0e804e3d61fb0e655c04a0d4990772810172c410",
+      "bytes": 13216,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm-mml-dbg-v6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm-mml-dbg-v6989.ko",
+      "sha256": "88ca984ba000c93225280a0c2d770017ee05b32c3f892d939b934627f79620e5",
+      "bytes": 12888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-swpm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-swpm.ko",
+      "sha256": "7e3955f04413fa7b962a9091e67e123ab9912c988eb16f1514dae0ca3df4346b",
+      "bytes": 50136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-vcodec-common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-vcodec-common.ko",
+      "sha256": "131fa804e367a94f0945f3fc2576bb6101be2373e2f188d60a315f122758a842",
+      "bytes": 143288,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-vcodec-dec-v2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-vcodec-dec-v2.ko",
+      "sha256": "42a9d493473e9c3bc28e118e03bff0e5de7952001301e404c3d1525682620ce8",
+      "bytes": 505480,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-vcodec-enc-v2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-vcodec-enc-v2.ko",
+      "sha256": "9bf2f2c9ee2636539003a3a046aa67b3e805dd7db85f16ab2104e18468c847d3",
+      "bytes": 463936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-vmm-notifier.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-vmm-notifier.ko",
+      "sha256": "2bd575e3548e5f10394c4ed3a4a37fea8dcf6ecc459c2258cd679f739990523c",
+      "bytes": 19040,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk-vow.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk-vow.ko",
+      "sha256": "f42a8cec5863ef33bb05caa980c1dbeb5db5803a118fddc4f1d4191c16a13d9f",
+      "bytes": 183944,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_aie.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_aie.ko",
+      "sha256": "3dca3d8c7b64135084ad274db610e27e0be75361e55c7977b115cbd5160b9dd6",
+      "bytes": 284024,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_aie_debug_7sp_1.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_aie_debug_7sp_1.ko",
+      "sha256": "9614fc288fa60c01dbc79c75692cb61bcff1c8389ca1922e05b1491f5143a093",
+      "bytes": 15968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_aov.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_aov.ko",
+      "sha256": "875e83ae2844a21332bb4c556e2b6f569b28d17fc14c07001278442f912034cc",
+      "bytes": 3026688,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_battery_oc_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_battery_oc_throttling.ko",
+      "sha256": "7de6795319c8e7ceca5a638b5ceb97bab590b7f59effb75ef80db1e2db7e87ec",
+      "bytes": 37056,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_bp_thl.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_bp_thl.ko",
+      "sha256": "94a82ca4f87d40282cc2ff50720a4840b376957f266607c62f9553978ef17844",
+      "bytes": 35960,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_c2ps.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_c2ps.ko",
+      "sha256": "20281081e89e72ddb8f7769de15bd33e85d4fa01601d3b869790f06436465b5f",
+      "bytes": 137744,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_ccd_remoteproc.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_ccd_remoteproc.ko",
+      "sha256": "1c10933226f04a9e07db2900ab7fd144478c4c16e9588472b2620aa64cc296df",
+      "bytes": 52272,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_ccuv.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_ccuv.ko",
+      "sha256": "a266b53aecf90bf1895bf7e0d6a38695746c4160120c7e4a8e038b559124121e",
+      "bytes": 74248,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_cg_peak_power_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_cg_peak_power_throttling.ko",
+      "sha256": "1a717745970c14f489fafd8064c1ac68f6637bf5b019fe201947103d1b9d3774",
+      "bytes": 98656,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_cm_ipi.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_cm_ipi.ko",
+      "sha256": "f2f4ff1d7f14cfc622fce9f43a8b5dfdc419dc15fe46f3618069785ab9ee44e4",
+      "bytes": 14280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_cm_mgr.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_cm_mgr.ko",
+      "sha256": "34e8833bd2df3c73b4c4848a11a81e5957fd178c815b83cc4fea6d40045b6274",
+      "bytes": 79032,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_cm_mgr_mt6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_cm_mgr_mt6989.ko",
+      "sha256": "c65734fd6044f3e32e108df6fdd6237085983a2d97cdba9ac6fa02d1ebaedfb4",
+      "bytes": 38264,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_core_ctl.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_core_ctl.ko",
+      "sha256": "cc16842bebeb0211614c9d051a9849dfd03d740a1eb466363c530a0951e991cb",
+      "bytes": 148112,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_cpu_power_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_cpu_power_throttling.ko",
+      "sha256": "540adcf0bb9054bc9d0587a663a04d93612ee456afd0d55b6efe2cd850e8e8f2",
+      "bytes": 36152,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_disp_sec.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_disp_sec.ko",
+      "sha256": "f5724a263a88c06f6de3e33cca923da88097fa96e69d259d7c37fbe1914639d8",
+      "bytes": 27880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_dynamic_loading_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_dynamic_loading_throttling.ko",
+      "sha256": "466f934010a191b29d23e2bf00a28e86021da9e5f26cc738d93c5614123973fa",
+      "bytes": 34904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_et.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_et.ko",
+      "sha256": "0bd7f7cd227ae5c0c613c6ee699d727441557a2cfc81d53bd24dd983654bf86a",
+      "bytes": 25368,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_fpsgo.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_fpsgo.ko",
+      "sha256": "5a83fff11ab04042da5566e03d150c0d004fc722fd6c6968f53a324db91ab727",
+      "bytes": 996952,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_gpu_hal.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_gpu_hal.ko",
+      "sha256": "801dff5c77b10faf218dc9b0a3155436972c19edc4563700189b35d3472c833c",
+      "bytes": 59208,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_gpu_iommu_mt6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_gpu_iommu_mt6989.ko",
+      "sha256": "1f8422e2eabbc3311e1d69cb1de6d50b5376902ecb1ed56cb3f69a6327a6976b",
+      "bytes": 12512,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_gpu_power_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_gpu_power_throttling.ko",
+      "sha256": "f3390b57aae59663ccde55cc0fb4a5423e3b7e69d84fccde4654eb99e894131d",
+      "bytes": 32640,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_gpu_qos.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_gpu_qos.ko",
+      "sha256": "e9d8ed849ea79431b4da061a113dc2e3f893fe8181ba1ba93957f84866a55ec4",
+      "bytes": 27888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_gpufreq_mt6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_gpufreq_mt6989.ko",
+      "sha256": "ac472bf740837aef982914ec96fd87a2176975a9432f3ff3faea20bf760b399c",
+      "bytes": 228744,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_gpufreq_wrapper.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_gpufreq_wrapper.ko",
+      "sha256": "00cb0bb59db37dda8bb37bd0c4308958aec53b74b4814fcbba79a50ae26d7a3d",
+      "bytes": 162784,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_hcp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_hcp.ko",
+      "sha256": "af531c5c66a5378d05f0c7ab598749e7b6847abae990c2797e6b50d7b97cd95c",
+      "bytes": 238696,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_heap_debug.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_heap_debug.ko",
+      "sha256": "1c71545f7b81d15817a21b8f85322988857b037fc4ae1788802f2fca60ba7002",
+      "bytes": 96480,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_heap_refill.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_heap_refill.ko",
+      "sha256": "ce5e65d9315505766a5e94042d012cbe2e8a0a0cfafb342d1439d3fdb09eb444",
+      "bytes": 22904,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_imgsys_cmdq.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_imgsys_cmdq.ko",
+      "sha256": "9743e3828b9f8df438545d883fb0988de4dba9c520e36f8387ae6d1346279af2",
+      "bytes": 563024,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_imgsys_isp7sp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_imgsys_isp7sp.ko",
+      "sha256": "0a903eeffc96b640ae297b75212a83ff54e5133b5502d9c621c2bc08a3cea299",
+      "bytes": 240392,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_imgsys_v4l2.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_imgsys_v4l2.ko",
+      "sha256": "5da5fb6d5717d96ab3a1e9c74aa26102286081d31c395d1023ea22e0487a4396",
+      "bytes": 345136,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_ioctl_powerhal.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_ioctl_powerhal.ko",
+      "sha256": "74a130fbbc7e3168d7114c17b57afc746019cd745481719c75566cfb10143cc2",
+      "bytes": 25888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_ioctl_touch_boost.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_ioctl_touch_boost.ko",
+      "sha256": "4bd5392272489f990d89733374311d0674562ed0e6c364e046c7dc154a38ae4c",
+      "bytes": 18416,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_irtx_pwm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_irtx_pwm.ko",
+      "sha256": "064edf8f7749fb10d81adf86e2ef37c99612ede1c1171030fadd8fe0d0d3a89f",
+      "bytes": 39944,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_jpeg.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_jpeg.ko",
+      "sha256": "002a52a259d9b0c2d6f97eb9005bcee9fad6225b3653d7f8ae66e8f953d04deb",
+      "bytes": 86912,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_low_battery_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_low_battery_throttling.ko",
+      "sha256": "9559a7bdae6f070799c375c991b16bc232725c1288d062d5f3290b163c58dd56",
+      "bytes": 58576,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_mbraink.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_mbraink.ko",
+      "sha256": "18e7f276ef86b48d5e08aa43449730b992d946d655cfbdacf2a6bde9ec31c4fb",
+      "bytes": 213248,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_md_power_throttling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_md_power_throttling.ko",
+      "sha256": "e944cd8029fedfa5cd594b3f95cf684fa0498ed3ae6f99188a2a0921e728c6e4",
+      "bytes": 19744,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_mdpm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_mdpm.ko",
+      "sha256": "437797f33a449d295e81f64e7f38d6258822524f072c450df14f229fd8b0a4f0",
+      "bytes": 128480,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_pbm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_pbm.ko",
+      "sha256": "ccedd2bb14b33cef19217b655e449dca1113feaae7999d631e2c5997103998ee",
+      "bytes": 55880,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_peak_power_budget.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_peak_power_budget.ko",
+      "sha256": "2ffd6a281d7dca71700bbcbf71d53a2bfc02d6c71ba319e6db5c15bad778b004",
+      "bytes": 93072,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_perf_common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_perf_common.ko",
+      "sha256": "05828422c3ca4984d36fd001c6c52ef81b903fa812eb1a59425da53e390b45f5",
+      "bytes": 117592,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_perf_ioctl.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_perf_ioctl.ko",
+      "sha256": "e2f7e2066a120930d78790b394fc82b3c7cdb8e348bc12e95a170d82e2af876f",
+      "bytes": 40144,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_perf_ioctl_magt.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_perf_ioctl_magt.ko",
+      "sha256": "df041413ed78f47180b46088489f83929e9af3f76bb80d193eb9bdeeae966462",
+      "bytes": 32504,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_qos.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_qos.ko",
+      "sha256": "fbb914bd46b979c85d2cd0f03e5fd84a461ddf081853a839bc62fb03a4608d12",
+      "bytes": 54968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_rpmsg_mbox.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_rpmsg_mbox.ko",
+      "sha256": "5a13f7157b1d09162e8ad6d0cd8a88cb3fb623fbf97a7082f25016131f6b2e4e",
+      "bytes": 16272,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_sec_heap.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_sec_heap.ko",
+      "sha256": "7456d45033539b9a50a16d6ff44e962b3a9144a053473473f61bcf290cbe2480",
+      "bytes": 74648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_tinysys_ipi.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_tinysys_ipi.ko",
+      "sha256": "4356a46013d45a4c86e9c7562e7979e956e3dddedfe1048737c8d2f0784724bd",
+      "bytes": 31888,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_u_ether.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_u_ether.ko",
+      "sha256": "2e61ed66406bfeed904a5a25d59d461828dafa4d96bf8781f12e9fec00da6085",
+      "bytes": 68616,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/mtk_usb_f_rndis.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/mtk_usb_f_rndis.ko",
+      "sha256": "4b4f474646ac9cb8850d91c5e27a00bd81d68d63c6eaf298e4b126ffb33b7e2e",
+      "bytes": 68096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/nvmem-mt635x-efuse.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/nvmem-mt635x-efuse.ko",
+      "sha256": "3e8eea66654ad0c308c4f464a3377472bb92d0ef495fe4e126f0975f4b8b2b21",
+      "bytes": 18256,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/nxp_i2c.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/nxp_i2c.ko",
+      "sha256": "85fcc9bb2a4d6bc1e6ac508ca662aa749fb96bde52b4de279e35b051ae994248",
+      "bytes": 61312,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/ocp81373.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/ocp81373.ko",
+      "sha256": "ba380dba909711f40d054763152b18cb73b08268f02797947ee261ac38334540",
+      "bytes": 43048,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/p73.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/p73.ko",
+      "sha256": "7259e8c1150198af6e4333f778832cae72ce9874c5fbeeecaf4e8bb34ef4b9c5",
+      "bytes": 39608,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/pda_drv_mt6989.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/pda_drv_mt6989.ko",
+      "sha256": "65aef6f2710a4a35185b47b07d0289b52dfea1326fe88e152f81441ad5abd65c",
+      "bytes": 118656,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/pgboost.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/pgboost.ko",
+      "sha256": "965ddc08cc968e973f487b875178622804499e8e9b0b974c3ee2c77525e57993",
+      "bytes": 43192,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/pmic_temp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/pmic_temp.ko",
+      "sha256": "e85ab3c09b1e1478ad9e17dfaa988805cb1266c656ed3e391950c58e8e9aac43",
+      "bytes": 33824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/powerhal_cpu_ctrl.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/powerhal_cpu_ctrl.ko",
+      "sha256": "5adbab8d70a0ba6ac7e0bcedffec6466ca0d48bd12d8d6c5e037f1bc0a708dfd",
+      "bytes": 72280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/powersave.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/powersave.ko",
+      "sha256": "efecd9b7822b64fb3e7f9cdc39b067a8bda131c8c44322d91d63965b3bea4e09",
+      "bytes": 26064,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/reboot-mode.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/reboot-mode.ko",
+      "sha256": "79aa9148d1c8676251ce2818937991847751f6c8e32467e05dc20ecf1cf8af0c",
+      "bytes": 16712,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/richtek_spm_cls.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/richtek_spm_cls.ko",
+      "sha256": "bc0da9bad2821e2c9a652e9ab0c652601099111126fdaab0f395f162c9b74077",
+      "bytes": 30360,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/rps_perf.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/rps_perf.ko",
+      "sha256": "4dde3846ae46a8a9c9a6628644802900e98e439c5d1421252770bd6e18b1c4f4",
+      "bytes": 11984,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/sapu.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/sapu.ko",
+      "sha256": "f505ae235cb08e344759460498e2b2b5a0b80eada67616821df5b54aa36bbc47",
+      "bytes": 47264,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/scene_swappiness.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/scene_swappiness.ko",
+      "sha256": "4acc7d8f0fcccd34617e3d09f58f308bd82fec7d076de93cc0aac87f7d2ffaf0",
+      "bytes": 23616,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/scheduler.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/scheduler.ko",
+      "sha256": "e73e82d14e65a204e652180b06ed1aee7cd0526479887d47806cc17fe5072ac9",
+      "bytes": 857536,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/scheduler_ext.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/scheduler_ext.ko",
+      "sha256": "baa3012982283736035132bee155d0ff99ed5924e0aac4d0c1ec325d60dd6b1a",
+      "bytes": 9648,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/scp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/scp.ko",
+      "sha256": "129516eca680b4fe2614531aec291ada202d8eb52434738a6829d20213276cb7",
+      "bytes": 460096,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/sec.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/sec.ko",
+      "sha256": "e233e72ed3d51a224e9c929f8714afb536ae974365e40027fdb111038b9a2622",
+      "bytes": 51432,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/sensorhub.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/sensorhub.ko",
+      "sha256": "d4d208d374f50a0c057614b9246ecb7b24125ffe5df63391625be79606c242f9",
+      "bytes": 110920,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/si_haptic.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/si_haptic.ko",
+      "sha256": "4804f4dee9f45f67360eb31b2e118443ed736c57ba6def23151fc799b793d27b",
+      "bytes": 234280,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/simtray.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/simtray.ko",
+      "sha256": "ca2d54040c6b5974b0af9b1753572e8e76063b6b41c8ede6ed74f6040f8b2897",
+      "bytes": 14224,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/sla.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/sla.ko",
+      "sha256": "890968f89feee9ddf0b2283aaaf4d0ac6bdfef1976e795b727615e34e301233c",
+      "bytes": 45704,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/snd-soc-audiodsp-common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/snd-soc-audiodsp-common.ko",
+      "sha256": "d5b1c1a39badb2179d87a4b52963f390d3a2379fc6bf322c34448588488f0121",
+      "bytes": 225664,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/snd-soc-aw882xx.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/snd-soc-aw882xx.ko",
+      "sha256": "fb51b5653aeb24f082b3dae466d68060b02b26bd58284f73888d47e6e4b98b8c",
+      "bytes": 489552,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/snd-soc-mt6681.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/snd-soc-mt6681.ko",
+      "sha256": "ca0f3e71e0b0f689e63ac252e87e765b39a312d5e7cea00251d4ac47b73de3c1",
+      "bytes": 1313896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/snd-soc-mt6989-afe.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/snd-soc-mt6989-afe.ko",
+      "sha256": "47b8dbfd967ffd0b20264e6a99bdc568cd29d6b1f236db6cc4eb5d5ceca50fa2",
+      "bytes": 1199232,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/snd-soc-mtk-common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/snd-soc-mtk-common.ko",
+      "sha256": "aeb82051d3c72dcd9d84ef2beef733d7801fd1a34a0444cd55578b2533d80f0d",
+      "bytes": 123808,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/snd-soc-rt5512.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/snd-soc-rt5512.ko",
+      "sha256": "224b60c06ce5b5a61269c025edb94745dd9b818c4aa6fded883fe52c577d55eb",
+      "bytes": 60248,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/soc_temp_lvts.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/soc_temp_lvts.ko",
+      "sha256": "037d07d3d9005533b8ba7fa4da018e543f320d3ab083824304fa43ca75608b0a",
+      "bytes": 116608,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/spmi-mtk-mpu.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/spmi-mtk-mpu.ko",
+      "sha256": "61246a3e45100bf9ad967dee4a2f9adc07d6dfae266cd14ba5f3988063654f2d",
+      "bytes": 21824,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/sspm_v3.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/sspm_v3.ko",
+      "sha256": "72188f5bfa4f8d738ae869154d7d03749851a8a0385966e5d179fee5430e639f",
+      "bytes": 48936,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/sub_vcm.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/sub_vcm.ko",
+      "sha256": "683e372e2e9d8f8a3ab6b68047488f1e07601cc310e68ba94b38960fb1e8fa57",
+      "bytes": 29360,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/syscon-reboot-mode.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/syscon-reboot-mode.ko",
+      "sha256": "88f4a3ed8d0b9df6b7582ee49325203471c66468390d670529571a9ff75a9bf0",
+      "bytes": 14464,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/task_turbo.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/task_turbo.ko",
+      "sha256": "8729d3609f822040bb63e1c2015d6ab799e1b2f4a9600e52205830604f072ae6",
+      "bytes": 101256,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/thermal-generic-adc.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/thermal-generic-adc.ko",
+      "sha256": "c7f6c0bb5dda08b640bd6656d013b0852cbbf0c14528b406920bcdb3bbfdbfb6",
+      "bytes": 16176,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/thermal_interface.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/thermal_interface.ko",
+      "sha256": "d0c36d5d2beb763112f05282b951ec76670b1b1697ef9ad7a7cceba92574b7f7",
+      "bytes": 123488,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/thermal_trace.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/thermal_trace.ko",
+      "sha256": "188354a66054d56410cef70f8592913a813f2a4a0bd9c8cc88dc6c2dc9c71813",
+      "bytes": 93376,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/tmem_ffa.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/tmem_ffa.ko",
+      "sha256": "bdc25013eb0f9ddcfcbbf929a22321a4c7b36bfab963745c6f37810b981c3edf",
+      "bytes": 142704,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/tms_device_modules.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/tms_device_modules.ko",
+      "sha256": "852735c1b6994c35d1a70aefffd77c18994229131e54acd2a420f0b28fa17275",
+      "bytes": 160504,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/touch_boost.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/touch_boost.ko",
+      "sha256": "8d0f89be712f7e7da4c42bd4db11268a994394ac3c881f74b563d5ac91f8c264",
+      "bytes": 111080,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/trace_mmstat.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/trace_mmstat.ko",
+      "sha256": "b09007a3bd3600633cb068d69a2a99dc58f85ad58f3c9ad3376d59b05ccd6d26",
+      "bytes": 45952,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/tui-common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/tui-common.ko",
+      "sha256": "a60869419280f6a7b71254d4254a3f2bec2bf9cf3aa0fe209f5e23e840c5e1b4",
+      "bytes": 13968,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/tui.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/tui.ko",
+      "sha256": "29b587891b43ef62b4398ea8e220debf5922fc561872bd503919656a541ee835",
+      "bytes": 64896,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/uload_ind.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/uload_ind.ko",
+      "sha256": "9072f803ca6644b1d7ac348c640a4e18e019bbf1fa6d66107b6a6948bb7415eb",
+      "bytes": 47952,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/unfairmem.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/unfairmem.ko",
+      "sha256": "b36b62401968cfe782716eee3c531dbfdd55acd37dfd687805519ac10f594589",
+      "bytes": 25224,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/unionpower.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/unionpower.ko",
+      "sha256": "01ecace2de27317dd59fa8c13276cdfda1443dfc3b99a48fd685e9ec68b61659",
+      "bytes": 35072,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/usb_offload.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/usb_offload.ko",
+      "sha256": "235b6640f8eff859e48c9fd27c499ef44a07dd04f8a1946cedb6f46a573cc7c9",
+      "bytes": 146456,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/vdec-fmt.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/vdec-fmt.ko",
+      "sha256": "ad2f29edbb2e4b0a852f19e7b241082f0f4852d7adf0eebcb2a9115344724f58",
+      "bytes": 119976,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/vtskin_temp.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/vtskin_temp.ko",
+      "sha256": "56e0c3ddf60713699426a1c31a10bd9842b5b7867a8890bacffde3f26a05587a",
+      "bytes": 22560,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/widevine_driver.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/widevine_driver.ko",
+      "sha256": "4a20c05443dfbc058da6c8f22472fd83ad84eabeb5fb8c17aa59c50dba98c864",
+      "bytes": 27984,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/wifi_cooling.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/wifi_cooling.ko",
+      "sha256": "881487b143488582712ee92084677e08fe44eb2a8e77739cf4e97d0757fabd3a",
+      "bytes": 16400,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/wl2868c.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/wl2868c.ko",
+      "sha256": "ab8520323cb622f9996465eb4fd95ed8cff7b0b47ae2edf8d61c3473f5abd330",
+      "bytes": 37328,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/wlan_drv_gen4m_6989_6639.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/wlan_drv_gen4m_6989_6639.ko",
+      "sha256": "e7c1a15d90413281a114ed5bb289b385eabebc972837b24a26e45fb8eec096c9",
+      "bytes": 8366704,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/wmt_chrdev_wifi_connac3.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/wmt_chrdev_wifi_connac3.ko",
+      "sha256": "5e5de95ead1c612cfd0b176604d34e9f3c120bcd589a8558eb046f6d71a45de8",
+      "bytes": 69472,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/xiaomi_spi_tee.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/xiaomi_spi_tee.ko",
+      "sha256": "1d86a4a0746acfc0440e9b7d9dc8944628b6411fc0cc095984e4610ac3f25e78",
+      "bytes": 64400,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/xiaomi_touch_common.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/xiaomi_touch_common.ko",
+      "sha256": "e7bc6bd8e07b042a98d7484640647083de65758d1eaa09e295be77f8778ed319",
+      "bytes": 225928,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/xiaomi_wifi_gpio.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/xiaomi_wifi_gpio.ko",
+      "sha256": "e6fa913e9bf3ccbbb67f094581648c90acbc9030668728914a0cb8089f68d0d7",
+      "bytes": 23920,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/xlogchar.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/xlogchar.ko",
+      "sha256": "7a8b0353cd51eade464b514034cfab2ff2c468192a021cf95b3b504f543696aa",
+      "bytes": 36240,
+      "mode": "0644"
+    },
+    {
+      "path": "vendor_dlkm/xm_power.ko",
+      "input": "dump",
+      "source": "vendor_dlkm/lib/modules/xm_power.ko",
+      "sha256": "0c3aaff717a87e8d220b0aed4575e59df7be01f52b8b71fbb76b40ad19569bf1",
+      "bytes": 27624,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/6lowpan.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/6lowpan.ko",
+      "sha256": "41d89b948a80464be4c06e2484b6a72d1465b03cbc1edbd828cdeb631ec874fb",
+      "bytes": 59329,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/8021q.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/8021q.ko",
+      "sha256": "00d85473eeb98718ec4834bf16469153d30386e91dd47bdc8bab41a03c6fcc32",
+      "bytes": 113609,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/aqc111.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/aqc111.ko",
+      "sha256": "7a1a2b9046e5da13e8edb1634489c02339670563824a4892e4f65ad5f087adf5",
+      "bytes": 91201,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/asix.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/asix.ko",
+      "sha256": "437ef9af6aff0609837224ae5267c3fef816110f4718b5f2bc944d2343c96c7f",
+      "bytes": 126937,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ax88179_178a.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ax88179_178a.ko",
+      "sha256": "0dcc7f3e017e0dafd24e478c87ddfb37eb49c0ae71ebb518972e26f3044f25da",
+      "bytes": 103737,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/bluetooth.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/bluetooth.ko",
+      "sha256": "892fe566f1602a53968e6dd369e164169cbbf86d43a1f02820c7dbfc459954c8",
+      "bytes": 1409017,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/bsd_comp.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/bsd_comp.ko",
+      "sha256": "e28f6c9f5f453e65b32a7203228ec73532ecb23a9834c8db708ccab60e4ab5e6",
+      "bytes": 21465,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/btbcm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/btbcm.ko",
+      "sha256": "f7f20cb0dc3fa21b3d971fdcab313965a5439214a8dac2993075c38575c4b828",
+      "bytes": 51129,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/btqca.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/btqca.ko",
+      "sha256": "0e692801d35299e669e06a809a5d435835952b58d0f7db61d972d156c5bafc1e",
+      "bytes": 46801,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/btsdio.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/btsdio.ko",
+      "sha256": "2522eabb276a1fca6e1b64410ee4b1121f7ad443097004dee67accf33ffbeda5",
+      "bytes": 60617,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/can-bcm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/can-bcm.ko",
+      "sha256": "a1e4e5d53c1c927ae280030904657c2f6e88b76fd9c5167649b90992a9ba6e64",
+      "bytes": 95897,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/can-dev.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/can-dev.ko",
+      "sha256": "97dfb96e247d9c9be0e2ca38a12133d72665a4dc9177d17e79e99cdb30e71deb",
+      "bytes": 98769,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/can-gw.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/can-gw.ko",
+      "sha256": "93082c93e8485efa830977e4db106c69befe89be31333b6162e0aefdbfa6fa73",
+      "bytes": 82993,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/can-raw.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/can-raw.ko",
+      "sha256": "9d491c41824db19b606aed9291abd2252d63ba3dce5624e540e1f2db45861fea",
+      "bytes": 84129,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/can.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/can.ko",
+      "sha256": "b77692eb8822c99a77c372ed306e4d0b7abeea86ae25ebc1087431e2e6696aed",
+      "bytes": 91161,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/cdc-acm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/cdc-acm.ko",
+      "sha256": "18c0082e9419a48db86d6162c4c073f8b3ea59993df954af40cd39a1de48f325",
+      "bytes": 78009,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/cdc_eem.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/cdc_eem.ko",
+      "sha256": "ca8ec7cac09b2ddaf811630f884adac808719d25b85d7ca2a78c33ed8ffc4613",
+      "bytes": 49185,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/cdc_ether.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/cdc_ether.ko",
+      "sha256": "19a1b7250dd3b9dad6008d5561b7282f51d4ca10a187945a6dd6bb0891c39abf",
+      "bytes": 45777,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/cdc_ncm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/cdc_ncm.ko",
+      "sha256": "68a0d2e2320f60d91479548e7cd2da5fa2c0d203a83106970965d1474b71311d",
+      "bytes": 96137,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/diag.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/diag.ko",
+      "sha256": "092e602bbc416caeff800f6881d6a1b6c60c7cff7de183cd783bded4ecf8c92c",
+      "bytes": 14825,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ftdi_sio.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ftdi_sio.ko",
+      "sha256": "4d1d3870731dad4ab2e67aeb8903b529a7d8d776f2887a4ef2f050d54e8df010",
+      "bytes": 163609,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/gzvm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/gzvm.ko",
+      "sha256": "5d52f7eeba7b279c70ce4d22baa6e6811c98d091ad5f3b4096c04a34a571a06f",
+      "bytes": 93745,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/hci_uart.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/hci_uart.ko",
+      "sha256": "cca2351085aec9e9694c515e018fa0ad6eae83d23b2fe49a9a54af1b998d595a",
+      "bytes": 263721,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/hidp.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/hidp.ko",
+      "sha256": "b907c764117b2740db4b18c4a6c13999324f7de03792bbcd41d9aeda9671dfbe",
+      "bytes": 126825,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ieee802154.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ieee802154.ko",
+      "sha256": "19b0dcb46565b10040b8b48c559a69daf17d6ed84568ad037d8877f063f701f6",
+      "bytes": 281721,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ieee802154_6lowpan.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ieee802154_6lowpan.ko",
+      "sha256": "e7d6aa9c3697ce5b84ef7388b9a9730d6c7bd30058e06a9430322760a476f9d9",
+      "bytes": 64329,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ieee802154_socket.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ieee802154_socket.ko",
+      "sha256": "8f1c3659f6d2be6db84f9a8669bcb724d8fda505bbce67781e9972aa7975ffe2",
+      "bytes": 74545,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/kheaders.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/kheaders.ko",
+      "sha256": "5fa99a51245c7e0722c5be6a47c9131beaf60484b12a9f7f38d51596b6b253ff",
+      "bytes": 4019617,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/l2tp_core.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/l2tp_core.ko",
+      "sha256": "fcd7c39321f69c5a7b51017f88a3fd98ee617f3e1962e64398ce5e7bd9a7cb48",
+      "bytes": 149681,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/l2tp_ppp.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/l2tp_ppp.ko",
+      "sha256": "1ad2ce24cf8310e7f96e29c6ac21db4b1b6d286b4b2575b869eda21ee85f9b43",
+      "bytes": 111369,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/libarc4.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/libarc4.ko",
+      "sha256": "331475f249cf0075b81a4ac05d9c16332797085dcf3e1c4c3f2a8ad2488f75c7",
+      "bytes": 11009,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/mac802154.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/mac802154.ko",
+      "sha256": "b30cf466b299642ea1551b4999390d15b56a28b8e43cc0094d3a4e82bf159a66",
+      "bytes": 240297,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/mii.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/mii.ko",
+      "sha256": "ba4bda718257ff33e86809387952330d54df440b7cdf708c7a93ba61fa5ffddd",
+      "bytes": 30657,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/modules.alias",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/modules.alias",
+      "sha256": "ae56033e7e40e3503deb119770cc17d88b246a0567404318b98a8d8ca299a0c7",
+      "bytes": 68034,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/modules.dep",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/modules.dep",
+      "sha256": "b50583dc4d12ea29ecce363ce9e2c9244db595f4bdd1bfe110e28e4a2f7f50e3",
+      "bytes": 4745,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/modules.load",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/modules.load",
+      "sha256": "460d5fc6fb341be6c72acf8b2d445e5c2650f5d7a1f9e8a393f83c7fd4a167b7",
+      "bytes": 672,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/modules.softdep",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/modules.softdep",
+      "sha256": "ac2de753255c506934be29e69261f1485f51ee9cf9c2bf467bcc0c4cf95f8713",
+      "bytes": 55,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nfc.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nfc.ko",
+      "sha256": "f323f552b9634b476281a12fc1e69431ec41ca39ccee05cd27621eb35a150022",
+      "bytes": 236345,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_dest.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_dest.ko",
+      "sha256": "a622661e228799325c541b43d6271466bafb37c9845efaa5024680cfa981d25d",
+      "bytes": 12145,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_fragment.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_fragment.ko",
+      "sha256": "7b090f8309ad5c82107a29fe1a6288df89969f90a7b6915c5535c895004a9a31",
+      "bytes": 12089,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_hop.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_hop.ko",
+      "sha256": "0249823bbdf56ae645499eba118204dffd12a2cad236c27f0f8423eec5c45e27",
+      "bytes": 12145,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_ipv6.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_ipv6.ko",
+      "sha256": "f900196772ab8781ed7417159841078df2e8cae88fea7313d445174828a6a8cb",
+      "bytes": 12081,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_mobility.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_mobility.ko",
+      "sha256": "e183431e29e386d23b3638f3ea792595f25e13986a1da133864e116a4fc9cc1b",
+      "bytes": 12089,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_routing.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_routing.ko",
+      "sha256": "b605b1e25734894c37dcce5da6772e48bb91586f1651be2cbc6c6bac946f9716",
+      "bytes": 12081,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/nhc_udp.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/nhc_udp.ko",
+      "sha256": "30a34f9308c421f28bc50eae2540c120416a6770ed4dc01b3607a0a7395843a0",
+      "bytes": 15505,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ppp_deflate.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ppp_deflate.ko",
+      "sha256": "1eb119027115c5d6effde0e4338c1c7e556cd847ba713beaedf077b09f2632ee",
+      "bytes": 22537,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ppp_generic.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ppp_generic.ko",
+      "sha256": "a05f803c95ef75754aadc154efb0387890e39fe06b9e04cf9c05db74fc28dd7d",
+      "bytes": 157225,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/ppp_mppe.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/ppp_mppe.ko",
+      "sha256": "8839852291295e1bb0d71c657c9526ae08bac23edbd3c1331b5c1bc253ad7ae1",
+      "bytes": 24905,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/pppox.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/pppox.ko",
+      "sha256": "6466a4048f46e0e948799f1474728204d383f5185db18587622d0e01d3c6fb2d",
+      "bytes": 64081,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/pptp.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/pptp.ko",
+      "sha256": "20959a3995894ddab8f20f83bc97713feec5aac96284894e7d33505a765a3194",
+      "bytes": 66937,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/r8152.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/r8152.ko",
+      "sha256": "b4da2817b9383324e7213323473200378f59853f97113627f099a7a4cbf646cc",
+      "bytes": 255121,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/r8153_ecm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/r8153_ecm.ko",
+      "sha256": "c98e61166d3ddaebe0505d7836a64b45be939b3c4a6fb9012b2ebb46351b6cdb",
+      "bytes": 47833,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/rfcomm.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/rfcomm.ko",
+      "sha256": "33fceaf1c7f36f0fdad4018aa60573261f986c1c55a2132bdca6cc0822677fb7",
+      "bytes": 237897,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/rfkill.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/rfkill.ko",
+      "sha256": "3d826e4fac6958d1934d3aee08cf990b8f3023e57349551aa6922d875f0d27ca",
+      "bytes": 63817,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/rtl8150.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/rtl8150.ko",
+      "sha256": "baa8ecd24dc550c3e30990fe273fbf2a35b0b3c52b865dc9b16ca494ff3acdd9",
+      "bytes": 68985,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/slcan.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/slcan.ko",
+      "sha256": "487811fd7d7c94eb9064499fc258aae82b739b0c8c50a15ba9d6686f6aa759ff",
+      "bytes": 79425,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/slhc.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/slhc.ko",
+      "sha256": "5af9d64b6e66feeb0acdee6fb6c3433d0fd0a5ce0058df4b9f3465775316cf77",
+      "bytes": 20649,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/tipc.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/tipc.ko",
+      "sha256": "4f11f501340c0b07b4ec9dfc413ea54157d7692a5688af2844cc18fb2be79376",
+      "bytes": 839905,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/usbnet.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/usbnet.ko",
+      "sha256": "3d360503b96c6ca422cef7612015378de2a4b83e212df2ae3365e1bfcf28bab6",
+      "bytes": 116377,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/usbserial.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/usbserial.ko",
+      "sha256": "bb5e70ae111edde2fbc01a92baa17682f31ae9b068078b155aa7a03ba88e2405",
+      "bytes": 88657,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/vcan.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/vcan.ko",
+      "sha256": "e6eeb96e41efc926f8f731f5b2de6b8d072cbc9e472e1b8f96db36a7dbadcc6f",
+      "bytes": 61369,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/wwan.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/wwan.ko",
+      "sha256": "1b85d55fa68560300e727f76506ec10978cb8ca8e7abbde8a5df5f6fd714bba9",
+      "bytes": 100225,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/zram.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/zram.ko",
+      "sha256": "73f122ad42d7c290435fe8e2ec18093cdec6eaa3c9d71ddf01fc84bf96e63e71",
+      "bytes": 62129,
+      "mode": "0644"
+    },
+    {
+      "path": "system_dlkm/zsmalloc.ko",
+      "input": "dump",
+      "source": "system_dlkm/lib/modules/zsmalloc.ko",
+      "sha256": "4c0d57d98fe097b40216f499586e3543442a281dc3baf94904f592a094746360",
+      "bytes": 52969,
+      "mode": "0644"
+    }
+  ]
+}
